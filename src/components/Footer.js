@@ -1,8 +1,10 @@
+import { dancingScript } from "@/styles/utils/fonts.js";
+
 const Footer = () => {
   return (
     <>
-      <div>
-        <p>2023 Céline's Portfolio</p>
+      <div className="container-footer" style={dancingScript.style}>
+        <h3>© 2023 Céline's Portfolio</h3>
       </div>
     </>
   );

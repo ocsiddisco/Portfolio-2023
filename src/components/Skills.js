@@ -1,32 +1,25 @@
+import { exo2 } from "@/styles/utils/fonts.js";
+import { hardSkills, softSkills } from "../pages/api/data.js";
+
 const Skills = () => {
   return (
-    <div className="container-skills">
+    <div className="container-skills" style={exo2.style}>
       <div className="container-hard-skills">
-        <h3>Hard Skills</h3>
+        <h2>Hard Skills</h2>
 
         <div className="hard-skills">
-          <div>HTML</div>
-          <div>CSS</div>
-          <div>JavaScript</div>
-          <div>React</div>
-          <div>Redux</div>
-          <div>Node.js</div>
-          <div>Express</div>
-          <div>Postgresql</div>
-          <div>Render</div>
-          <div>Github</div>
-          <div>VS Code</div>
+          {hardSkills.map((skill) => {
+            return <div className="skills-box">{skill}</div>;
+          })}
         </div>
       </div>
 
       <div className="container-soft-skills">
-        <h3>Soft Skills</h3>
+        <h2>Soft Skills</h2>
         <div className="soft-skills">
-          <div>Resourfulness</div>
-          <div>Problem-solving</div>
-          <div>Organizational</div>
-          <div>Dependability</div>
-          <div>Time management</div>
+          {softSkills.map((skill) => {
+            return <div className="skills-box">{skill}</div>;
+          })}
         </div>
       </div>
     </div>

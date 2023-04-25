@@ -1,4 +1,3 @@
-import styles from "@/styles/Home.module.css";
 import FixBar from "@/components/FixBar.js";
 import Intro from "@/components/Intro.js";
 import About from "@/components/About.js";
@@ -10,6 +9,7 @@ import Sparkles from "@/components/Sparkles.js";
 export default function Home() {
   return (
     <>
+      <FixBar />
       <Sparkles />
       <Intro />
       <About />
