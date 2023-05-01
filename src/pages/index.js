@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <FixBar />
-      <Sparkles />
+      {/* <Sparkles /> */}
       <Intro />
       <About />
       <Skills />

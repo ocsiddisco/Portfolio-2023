@@ -4,15 +4,19 @@ export const data = [
   {
     id: 1,
     title: "Face Recognition",
-    description: "Uses Clarifai API to detect faces on photos",
+    description: "Uses Clarifai API to detect faces on photos.",
     stack: ["React", "Node.js", "Express", "PostgreSQL", "Render", "AWS RDS"],
     github: "https://github.com/ocsiddisco/Face-Recognition",
     image: (
       <Image
-        src="/project.png"
+        src="/projectFr.png"
         width="150"
         height="150"
-        style={{ borderStyle: "none", borderRadius: "10px" }}
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
       />
     ),
     url: "https://face-recognition-front-mm4d.onrender.com/",
@@ -21,15 +25,19 @@ export const data = [
     id: 2,
     title: "Treenation API",
     description:
-      "Uses Treenation API to present projects available for funding",
+      "Uses Treenation API to present projects available for funding.",
     stack: ["React", "Redux Toolkit", "React Router", "Recharts", "Render"],
     github: "https://github.com/ocsiddisco/Treenation-Project",
     image: (
       <Image
-        src="/project.png"
+        src="/projectT.png"
         width="150"
         height="150"
-        style={{ borderStyle: "none", borderRadius: "10px" }}
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
       />
     ),
     url: "https://treenation-project.onrender.com/",
@@ -43,10 +51,14 @@ export const data = [
     github: "https://github.com/ocsiddisco/Project-House-Listing",
     image: (
       <Image
-        src="/project.png"
+        src="/WIP.png"
         width="150"
         height="150"
-        style={{ borderStyle: "none", borderRadius: "10px" }}
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
       />
     ),
     url: "",
@@ -54,12 +66,12 @@ export const data = [
   {
     id: 4,
     title: "Portfolio 2023",
-    description: "Showing off my awesome projects",
+    description: "New version of my portfolio.",
     stack: ["React", "Next.js"],
     github: "https://github.com/ocsiddisco/Portfolio-2023",
     image: (
       <Image
-        src="/project.png"
+        src="/projectP.png"
         height="150"
         width="150"
         style={{
@@ -88,7 +100,8 @@ export const hardSkills = [
 ];
 
 export const softSkills = [
-  "Resourfulness",
+  "Resourcefulness",
+  "Team-working",
   "Problem-solving",
   "Organizational",
   "Dependability",

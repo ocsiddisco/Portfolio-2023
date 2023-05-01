@@ -1,21 +1,36 @@
-import { exo2, dancingScript } from "@/styles/utils/fonts.js";
+import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.js";
 
 const Intro = () => {
   return (
-    <div className="container-intro" style={dancingScript.style}>
-      <div className="intro-p1">
-        <h1>Hi there!</h1>
-        <h1>I am Céline,</h1>
-        <h1>Front-End Developer</h1>
-        <img alt="img" />
+    <div className="container-intro">
+      <div className="animated-title" style={montserrat.style}>
+        <div className="intro-p1 text-top">
+          <div className="intro-text">
+            <span className="gradient-text">Hi there!</span>
+            <span className="gradient-text">I am Céline</span>
+          </div>
+        </div>
+        <div className="text-bottom">
+          <div className="gradient-text">Front-End Developer</div>
+        </div>
       </div>
-      <div className="intro-p2" style={exo2.style}>
-        <button className="" role="button">
-          Download my cv
-        </button>
-        <button className="" role="button">
-          Contact me
-        </button>
+
+      <div className="intro-p2">
+        <a href="/CelineLeCorvaisierCV.pdf" download>
+          <button className="sm" style={montserrat2.style} role="button">
+            Download CV
+          </button>
+        </a>
+        <a
+          href="mailto:celine.le.corv@gmail.com"
+          target="_blank"
+          className="cta-btn"
+          style={{ textDecoration: "none" }}
+        >
+          <button className="sm" style={montserrat2.style} role="button">
+            Get in touch
+          </button>
+        </a>
       </div>
     </div>
   );
