@@ -12,6 +12,7 @@ export const data = [
         src="/projectFr.png"
         width="150"
         height="150"
+        alt="image-project"
         style={{
           borderStyle: "none",
           borderRadius: "10px",
@@ -33,6 +34,7 @@ export const data = [
         src="/projectT.png"
         width="150"
         height="150"
+        alt="image-project"
         style={{
           borderStyle: "none",
           borderRadius: "10px",
@@ -54,6 +56,7 @@ export const data = [
         src="/WIP.png"
         width="150"
         height="150"
+        alt="image-project"
         style={{
           borderStyle: "none",
           borderRadius: "10px",
@@ -74,6 +77,7 @@ export const data = [
         src="/projectP.png"
         height="150"
         width="150"
+        alt="image-project"
         style={{
           borderStyle: "none",
           borderRadius: "10px",
