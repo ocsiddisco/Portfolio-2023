@@ -20,13 +20,15 @@ const Contact = () => {
             don't hesitate to reach out. My inbox is always open, and I am happy
             to meet with you to discuss any opportunities.
           </p>
-          <a
-            href="mailto:celine.le.corv@gmail.com"
-            target="_blank"
-            style={{ textDecoration: "none" }}
-          >
-            <button style={montserrat2.style}>Contact Me</button>
-          </a>
+          <div className="container-button">
+            <a
+              href="mailto:celine.le.corv@gmail.com"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <button style={montserrat2.style}>Contact Me</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
