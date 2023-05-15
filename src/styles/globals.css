@@ -101,6 +101,8 @@ input[type=checkbox]{
 
 
 .intro-p2{
+  display: flex;
+  flex-direction: row;
 
   @media (max-width: 420px) {
     display: flex;
@@ -111,6 +113,7 @@ input[type=checkbox]{
 } 
 
 .p2-inside {
+  box-sizing: border-box;
   @media (max-width: 420px) {
     display: flex;
     flex-direction: column;
