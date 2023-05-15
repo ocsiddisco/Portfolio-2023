@@ -16,21 +16,23 @@ const Intro = () => {
       </div>
 
       <div className="intro-p2">
-        <a href="/CelineLeCorvaisierCV.pdf" download>
-          <button className="sm" style={montserrat2.style} role="button">
-            Download CV
-          </button>
-        </a>
-        <a
-          href="mailto:celine.le.corv@gmail.com"
-          target="_blank"
-          className="cta-btn"
-          style={{ textDecoration: "none" }}
-        >
-          <button className="sm" style={montserrat2.style} role="button">
-            Get in touch
-          </button>
-        </a>
+        <div className="p2-inside">
+          <a href="/CelineLeCorvaisierCV.pdf" download>
+            <button className="sm" style={montserrat2.style} role="button">
+              Download CV
+            </button>
+          </a>
+          <a
+            href="mailto:celine.le.corv@gmail.com"
+            target="_blank"
+            className="cta-btn"
+            style={{ textDecoration: "none" }}
+          >
+            <button className="sm" style={montserrat2.style} role="button">
+              Get in touch
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );

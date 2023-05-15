@@ -104,11 +104,21 @@ input[type=checkbox]{
 
   @media (max-width: 420px) {
     display: flex;
+    width:100%;
+    align-items:center;
+    justify-items:center;
+  }
+} 
+
+.p2-inside {
+  @media (max-width: 420px) {
+    display: flex;
     flex-direction: column;
     width:100%;
     align-items:center;
+    justify-items:center;
   }
-} 
+}
 
 .intro-p2, a {
   @media (max-width: 420px) {
