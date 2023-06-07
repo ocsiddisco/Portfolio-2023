@@ -45,17 +45,37 @@ export const data = [
     url: "https://treenation-project.onrender.com/",
   },
   {
-    id: 3,
-    title: "Project House Listing",
-    description:
-      "House listing website allowing you to search, add, update, delete houses.",
-    stack: ["Vue", "Pinia", "Router"],
-    github: "https://github.com/ocsiddisco/Project-House-Listing",
+    id: 4,
+    title: "Make-Up & Hair Artist",
+    description: "Portfolio for a fictional make-up & hair artist.",
+    stack: ["Next.js", "Tailwindcss"],
+    github: "https://github.com/ocsiddisco/MakeUpArtist2023",
     image: (
       <Image
-        src="/WIP.png"
-        width="150"
+        src="/projectM.png"
         height="150"
+        width="150"
+        alt="image-project"
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
+      />
+    ),
+    url: "https://make-up-artist2023.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Portfolio 2023",
+    description: "New version of my portfolio.",
+    stack: ["Next.js"],
+    github: "https://github.com/ocsiddisco/Portfolio-2023",
+    image: (
+      <Image
+        src="/projectP.png"
+        height="150"
+        width="150"
         alt="image-project"
         style={{
           borderStyle: "none",
@@ -67,16 +87,17 @@ export const data = [
     url: "",
   },
   {
-    id: 4,
-    title: "Portfolio 2023",
-    description: "New version of my portfolio.",
-    stack: ["React", "Next.js"],
-    github: "https://github.com/ocsiddisco/Portfolio-2023",
+    id: 3,
+    title: "Project House Listing",
+    description:
+      "House listing website allowing you to search, add, update, delete houses.",
+    stack: ["Vue", "Pinia", "Router"],
+    github: "https://github.com/ocsiddisco/Project-House-Listing",
     image: (
       <Image
-        src="/projectP.png"
-        height="150"
+        src="/WIP.png"
         width="150"
+        height="150"
         alt="image-project"
         style={{
           borderStyle: "none",

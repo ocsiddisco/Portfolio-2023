@@ -17,7 +17,11 @@ const Projects = () => {
             <div className="project-card" key={project.id}>
               <div className="card">
                 <div className="header">
-                  <a href={project.github} target="_blank">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    style={{ width: "20%" }}
+                  >
                     <Image
                       src="/github-60.png"
                       alt="github"
