@@ -95,7 +95,7 @@ export const data = [
     github: "https://github.com/ocsiddisco/Project-House-Listing",
     image: (
       <Image
-        src="/WIP.png"
+        src="/projectH.jpg"
         width="150"
         height="150"
         alt="image-project"
