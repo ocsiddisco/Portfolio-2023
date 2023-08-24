@@ -1,8 +1,19 @@
-import { data } from "../pages/api/data.js";
-import Image from "next/image";
+import React from "react";
+import { projects, projectsCourses } from "../pages/api/data.js";
 import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
+import CardProject from "./CardProject.js";
 
 const Projects = () => {
+  const [show, setShow] = React.useState(false);
+
+  const handleclick = () => {
+    if (!show) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  };
+
   return (
     <div className="container-projects">
       <div className="projects-inside">
@@ -13,48 +24,25 @@ const Projects = () => {
         </div>
 
         <div className="projects" style={montserrat2.style}>
-          {data.map((project) => (
-            <div className="project-card" key={project.id}>
-              <div className="card">
-                <div className="header">
-                  <a href={project.github} target="_blank">
-                    <Image
-                      src="/github-60.png"
-                      alt="github"
-                      width="50"
-                      height="50"
-                    />
-                  </a>
-                  <h4>{project.title}</h4>
-                </div>
-
-                <div className="image">{project.image}</div>
-
-                <p className="project-description">{project.description}</p>
-                <div className="list-stack">
-                  {project.stack.map((item, i) => {
-                    return (
-                      <p className="skills-box" key={i}>
-                        {item}
-                      </p>
-                    );
-                  })}
-                </div>
-                <div className="demo-button">
-                  {!!project.url && (
-                    <a
-                      target="_blank"
-                      href={project.url}
-                      style={{ textDecoration: "none" }}
-                    >
-                      <button style={montserrat2.style}>Demo</button>
-                    </a>
-                  )}
-                </div>
-              </div>
-            </div>
+          {projects.map((project) => (
+            <CardProject project={project} key={project.id} />
           ))}
         </div>
+
+        <h3
+          className="gradient-text hover"
+          style={exo2.style}
+          onClick={handleclick}
+        >
+          Final exercises courses {show ? <> ⮝ </> : <> ⮟ </>}
+        </h3>
+        {show && (
+          <div className="projects" style={montserrat2.style}>
+            {projectsCourses.map((project) => (
+              <CardProject project={project} key={project.id} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
