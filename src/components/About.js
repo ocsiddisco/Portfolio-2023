@@ -1,5 +1,6 @@
 import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
 import React from "react";
+import DropDown from "./DropDown.js";
 
 const About = () => {
   const [show, setShow] = React.useState(false);
@@ -39,13 +40,8 @@ const About = () => {
             team, continue learning, and take on new challenges.
           </p>
         </div>
-        <h3
-          className="gradient-text hover"
-          style={exo2.style}
-          onClick={handleClick}
-        >
-          Long version {show ? <> ⮝ </> : <> ⮟ </>}
-        </h3>
+
+        <DropDown text=" Long version" handleClick={handleClick} show={show} />
         {show && (
           <div style={montserrat2.style}>
             <p className="text-space">

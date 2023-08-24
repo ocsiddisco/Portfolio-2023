@@ -2,11 +2,12 @@ import React from "react";
 import { projects, projectsCourses } from "../pages/api/data.js";
 import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
 import CardProject from "./CardProject.js";
+import DropDown from "./DropDown.js";
 
 const Projects = () => {
   const [show, setShow] = React.useState(false);
 
-  const handleclick = () => {
+  const handleClick = () => {
     if (!show) {
       setShow(true);
     } else {
@@ -29,13 +30,11 @@ const Projects = () => {
           ))}
         </div>
 
-        <h3
-          className="gradient-text hover"
-          style={exo2.style}
-          onClick={handleclick}
-        >
-          Final exercises courses {show ? "⮝" : "⮟"}
-        </h3>
+        <DropDown
+          text="Projects from courses"
+          handleClick={handleClick}
+          show={show}
+        />
         {show && (
           <div className="projects" style={montserrat2.style}>
             {projectsCourses.map((project) => (
