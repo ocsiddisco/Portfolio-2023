@@ -34,7 +34,7 @@ const Projects = () => {
           style={exo2.style}
           onClick={handleclick}
         >
-          Final exercises courses {show ? <> ⮝ </> : <> ⮟ </>}
+          Final exercises courses {show ? "⮝" : "⮟"}
         </h3>
         {show && (
           <div className="projects" style={montserrat2.style}>

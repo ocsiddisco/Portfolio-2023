@@ -25,11 +25,6 @@ body {
 
 }
 
-a {
-  width: max-content;
-}
-
-
 
 /* Sparkles */
 .container-sparkles {
@@ -446,17 +441,30 @@ margin-top: 10px;
 
 }
 
-.header {
+.headerproject {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  /* @media (max-width: 420px) {
+    justify-items:stretch;
+} */
 
 }
 
-.header, h4 {
+.headerproject, h4 {
   display: flex;
   align-items: center;
+  @media (max-width: 420px) {
+    align-items: end;
+}
+}
+
+.headerproject a {
+  @media (max-width: 420px) {
+    max-width:fit-content;
+    align-items: start;
+}
 }
 
 .image {

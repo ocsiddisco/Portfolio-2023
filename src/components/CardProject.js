@@ -6,7 +6,7 @@ const CardProject = ({ project }) => {
     <>
       <div className="project-card">
         <div className="card">
-          <div className="header">
+          <div className="headerproject">
             <a href={project.github} target="_blank">
               <Image src="/github-60.png" alt="github" width="50" height="50" />
             </a>
