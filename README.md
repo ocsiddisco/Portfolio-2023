@@ -9,3 +9,7 @@
 ### Place for Improvements
 - clean up the CSS file
 - work on SEO
+
+### Start
+
+npm run dev
