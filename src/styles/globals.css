@@ -337,7 +337,7 @@ margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    align-items: stretch;
   }
 
 }
@@ -374,7 +374,6 @@ margin-top: 10px;
   box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.1);
   padding:0px 10px 10px 10px;
   margin-top: 25px;
-
 
   @media (min-width: 992px) {
     margin-top: 10px;
