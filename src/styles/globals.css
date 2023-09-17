@@ -443,8 +443,10 @@ margin-top: 10px;
 }
 
 .projects > .project-card:last-child {
+  @media (max-width: 600px) {
   border-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 0;}
+
 }
 
 .project-card:hover {
