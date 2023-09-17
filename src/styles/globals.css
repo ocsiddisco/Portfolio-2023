@@ -442,6 +442,11 @@ margin-top: 10px;
   align-items: center;
 }
 
+.projects > .project-card:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
 .project-card:hover {
   transform: scale(1.025,1.025);
   transition-duration:  0.4s;
@@ -533,7 +538,6 @@ margin-top: 10px;
     margin: 0px 0px 20px 0px;
   }
 }
-
 
 .demo-button {
 display: flex;
