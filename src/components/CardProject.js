@@ -8,7 +8,7 @@ const CardProject = ({ project }) => {
         <div className="card">
           <div className="headerproject">
             <a href={project.github} target="_blank">
-              <Image src="/github-60.png" alt="github" width="50" height="50" />
+              <Image src="/github-60.png" alt="github" width="40" height="40" />
             </a>
             <h4>{project.title}</h4>
           </div>

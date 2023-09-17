@@ -2,7 +2,7 @@ import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.js";
 
 const Intro = () => {
   return (
-    <div className="container-intro">
+    <header className="container-intro">
       <div className="animated-title" style={montserrat.style}>
         <div className="intro-p1 text-top">
           <div className="intro-text">
@@ -34,7 +34,7 @@ const Intro = () => {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

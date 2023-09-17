@@ -10,9 +10,9 @@ export const projects = [
     github: "https://github.com/ocsiddisco/Treenation-Project",
     image: (
       <Image
-        src="/projectT.png"
-        width="150"
-        height="150"
+        src="/OvalProjectT.png"
+        width="170"
+        height="170"
         alt="image-project"
         style={{
           borderStyle: "none",
@@ -31,9 +31,9 @@ export const projects = [
     github: "https://github.com/ocsiddisco/MakeUpArtist2023",
     image: (
       <Image
-        src="/projectM.png"
-        height="150"
-        width="150"
+        src="/OvalProjectM.png"
+        width="170"
+        height="170"
         alt="image-project"
         style={{
           borderStyle: "none",
@@ -52,9 +52,9 @@ export const projects = [
     github: "https://github.com/ocsiddisco/Portfolio-2023",
     image: (
       <Image
-        src="/projectP.png"
-        height="150"
-        width="150"
+        src="/OvalProjectP.png"
+        width="170"
+        height="170"
         alt="image-project"
         style={{
           borderStyle: "none",
@@ -74,9 +74,9 @@ export const projects = [
     github: "https://github.com/ocsiddisco/Project-House-Listing",
     image: (
       <Image
-        src="/projectH.jpg"
-        width="150"
-        height="150"
+        src="/OvalProjectH.png"
+        width="170"
+        height="170"
         alt="image-project"
         style={{
           borderStyle: "none",
@@ -96,8 +96,8 @@ export const projects = [
     image: (
       <Image
         src="/WIP.png"
-        width="150"
-        height="150"
+        width="170"
+        height="170"
         alt="image-project"
         style={{
           borderStyle: "none",
@@ -132,9 +132,9 @@ export const projectsCourses = [
     github: "https://github.com/ocsiddisco/nasa-project",
     image: (
       <Image
-        src="/projectN.png"
-        width="150"
-        height="150"
+        src="/OvalProjectN.png"
+        width="170"
+        height="170"
         alt="image-project"
         style={{
           borderStyle: "none",
@@ -153,9 +153,9 @@ export const projectsCourses = [
     github: "https://github.com/ocsiddisco/Face-Recognition",
     image: (
       <Image
-        src="/projectFr.png"
-        width="150"
-        height="150"
+        src="/OvalProjectS.png"
+        width="170"
+        height="170"
         alt="image-project"
         style={{
           borderStyle: "none",
