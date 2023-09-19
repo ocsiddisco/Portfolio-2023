@@ -17,7 +17,7 @@ const Intro = () => {
 
       <div className="intro-p2">
         <div className="p2-inside">
-          <a href="/CelineLeCorvaisierCV.pdf" download>
+          <a href="/CelineLeCorvaisier.pdf" download>
             <button className="sm" style={montserrat2.style} role="button">
               Download CV
             </button>
