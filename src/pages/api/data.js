@@ -5,8 +5,17 @@ export const projects = [
     id: 2,
     title: "Treenation API",
     description:
-      "Uses Treenation API to present projects available for funding.",
-    stack: ["React", "Redux Toolkit", "React Router", "Recharts", "Render"],
+      "Consumes Treenation API to present projects available for funding.",
+    stack: [
+      "HTML",
+      "CSS",
+      "React",
+      "Redux Toolkit",
+      "React Router",
+      "Recharts",
+      "styled-components",
+      "Render",
+    ],
     github: "https://github.com/ocsiddisco/Treenation-Project",
     image: (
       <Image
@@ -27,7 +36,7 @@ export const projects = [
     id: 4,
     title: "Make-Up & Hair Artist",
     description: "Portfolio for a fictional make-up & hair artist.",
-    stack: ["Next.js", "Tailwindcss"],
+    stack: ["HTML", "CSS", "Next.js", "Tailwindcss", "Vercel"],
     github: "https://github.com/ocsiddisco/MakeUpArtist2023",
     image: (
       <Image
@@ -48,7 +57,7 @@ export const projects = [
     id: 5,
     title: "Portfolio 2023",
     description: "New version of my portfolio.",
-    stack: ["Next.js"],
+    stack: ["HTML", "CSS", "Next.js", "Vercel"],
     github: "https://github.com/ocsiddisco/Portfolio-2023",
     image: (
       <Image
@@ -70,7 +79,7 @@ export const projects = [
     title: "Project House Listing",
     description:
       "House listing website allowing you to search, add, update, delete houses.",
-    stack: ["Vue", "Pinia", "Router"],
+    stack: ["HTML", "CSS", "Vue", "Pinia", "Router"],
     github: "https://github.com/ocsiddisco/Project-House-Listing",
     image: (
       <Image
@@ -90,12 +99,29 @@ export const projects = [
   {
     id: 7,
     title: "To Do App",
-    description: "Yikes! Another todo list? My apologies!",
-    stack: ["Node.js", "Express", "Rest API", "MongoDB", "Oauth2.0", "React"],
+    description:
+      "Responsive web app with a login form to managing your own list of tasks.",
+    stack: [
+      "Node.js",
+      "Express",
+      "Rest API",
+      "Mongoose",
+      "MongoDB",
+      "JWT",
+      "Jest",
+      "SuperTest",
+      "HTML",
+      "CSS",
+      "React",
+      "React router",
+      "React hot toast",
+      "Material UI",
+      "Render",
+    ],
     github: "https://github.com/ocsiddisco/todo2023",
     image: (
       <Image
-        src="/WIP.png"
+        src="/OvalProjectL.png"
         width="170"
         height="170"
         alt="image-project"
@@ -106,7 +132,7 @@ export const projects = [
         }}
       />
     ),
-    url: "",
+    url: "https://todo-app-frontend-istz.onrender.com/",
   },
 ];
 
@@ -149,7 +175,16 @@ export const projectsCourses = [
     id: 1,
     title: "Face Recognition",
     description: "Uses Clarifai API to detect faces on photos.",
-    stack: ["React", "Node.js", "Express", "PostgreSQL", "Render", "AWS RDS"],
+    stack: [
+      "HTML",
+      "CSS",
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Render",
+      "AWS RDS",
+    ],
     github: "https://github.com/ocsiddisco/Face-Recognition",
     image: (
       <Image
