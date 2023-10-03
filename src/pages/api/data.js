@@ -176,7 +176,7 @@ export const projects = [
         }}
       />
     ),
-    url: "https://explore-nations-git-main-ocsiddisco.vercel.app/",
+    url: "https://explorenations-ocsiddisco.vercel.app/",
   },
 ];
 
