@@ -100,7 +100,7 @@ export const projects = [
     id: 7,
     title: "To Do App",
     description:
-      "Responsive web app with a login form to managing your own list of tasks.",
+      "Responsive web app with a login form for managing your own list of tasks.",
     stack: [
       "Node.js",
       "Express",
@@ -133,6 +133,50 @@ export const projects = [
       />
     ),
     url: "https://todo-app-frontend-istz.onrender.com/",
+  },
+  {
+    id: 8,
+    title: "Zin in sommen?",
+    description:
+      "Personal project made to help my 7-year-old daughter learn mathematics.",
+    stack: ["HTML", "Tailwindcss", "React", "Netlify"],
+    github: "https://github.com/ocsiddisco/Maths-games",
+    image: (
+      <Image
+        src="/OvalProjectZS.png"
+        width="170"
+        height="170"
+        alt="image-project"
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
+      />
+    ),
+    url: "https://main--vermillion-gnome-8e6924.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "ExploreNations",
+    description:
+      "Responsive website that presents data using cards and tables.",
+    stack: ["HTML", "CSS", "Next.js", "Mui Library", "Vercel"],
+    github: "https://github.com/ocsiddisco/ExploreNations",
+    image: (
+      <Image
+        src="/OvalProjectEN.png"
+        width="170"
+        height="170"
+        alt="image-project"
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
+      />
+    ),
+    url: "https://explore-nations-chmp7plk3-ocsiddisco.vercel.app/",
   },
 ];
 
