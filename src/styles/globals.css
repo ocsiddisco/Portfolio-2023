@@ -106,7 +106,7 @@ header {
   flex-direction: row;
   margin-bottom: 20px;
 
-  @media (max-width: 420px) {
+  @media (max-width: 450px) {
     display: flex;
     width:100%;
     align-items:center;
@@ -116,7 +116,7 @@ header {
 
 .p2-inside {
   box-sizing: border-box;
-  @media (max-width: 420px) {
+  @media (max-width: 450px) {
     display: flex;
     flex-direction: column;
     width:100%;
@@ -126,12 +126,12 @@ header {
 }
 
 .intro-p2, a {
-  @media (max-width: 420px) {
+  @media (max-width: 450px) {
     width:100%;
 }}
 
 .sm {
-  @media (max-width: 420px) {
+  @media (max-width: 450px) {
     width:80%;
   }
 }
@@ -148,14 +148,11 @@ header {
   100% { transform: translate3d(0, 0, 0); }
 }
 .animated-title {
-  height: 40vh;
+  min-height: 300px;
+  height: 35vh;
   position: relative;
-  width: 90vmin;
-
-  @media (max-width: 420px) {
-    height: 30vh;
-
-  }
+  width: 70%;
+  max-width: 700px;
 }
 .animated-title > div {
   height: 50%;
@@ -164,13 +161,13 @@ header {
   width: 100%;
 }
 .animated-title > div div {
-  font-size: 8vmin;
+  font-size: 2rem;
   padding: 2vmin 0;
   position: absolute;
   @media (min-width: 900px) {
-    font-size: 6vmin;
-  
+    font-size: 2.5rem;
   }
+
 }
 .animated-title > div div span {
   display: block;
@@ -432,21 +429,31 @@ margin-top: 10px;
   margin-top: 10px;
   @media (min-width: 1400px) {
     width: 1300px;
-  
   }
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  column-gap: 15px;
+    row-gap: 15px;
+    @media (max-width: 800px) {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    column-gap: 0px;
+    row-gap: 0px;
+    }
 }
 
 .projects > .project-card:last-child {
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
   border-bottom: 0;
   margin-bottom: 0;}
-
 }
 
 .project-card:hover {
@@ -455,9 +462,6 @@ margin-top: 10px;
 }
 
 .project-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   border: solid;
   border-width: 1px;
   border-radius: 10px;
@@ -465,10 +469,13 @@ margin-top: 10px;
   /* box-shadow: 10px 10px 5px 12px #2F4858 */
   box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.1);
   padding:10px;
-  margin: 20px 0px 20px 0px;
-  width: 90%;
+  margin: 0px 0px 0px 0px;
+  width: calc(100% - 15px);
 
-  @media (max-width: 600px) {  
+  @media (max-width: 800px) {  
+     display: flex;
+    flex-direction: row;
+    justify-content: center; 
     box-shadow: 0 0 0 0;
     border: none;
     border-bottom: 1px solid #4A6163;
@@ -533,12 +540,20 @@ margin-top: 10px;
 .card {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
+  height:100%;
+  justify-content: space-between;
   align-items: center;
-  @media (max-width: 600px) {  
-   
+  @media (max-width: 800px) {  
     margin: 0px 0px 20px 0px;
+    justify-content: flex-start;
+
   }
+}
+
+.container-top-card{
+  display: flex;
+  flex-direction: column;
 }
 
 .demo-button {

@@ -9,6 +9,7 @@ export const projects = [
     stack: [
       "HTML",
       "CSS",
+      "TypeScript",
       "React",
       "Redux Toolkit",
       "React Router",
@@ -159,8 +160,7 @@ export const projects = [
   {
     id: 9,
     title: "ExploreNations",
-    description:
-      "Responsive website that presents data using cards and tables.",
+    description: "Responsive website presenting data using cards and tables.",
     stack: ["HTML", "CSS", "Next.js", "Mui Library", "Vercel"],
     github: "https://github.com/ocsiddisco/ExploreNations",
     image: (
@@ -177,6 +177,39 @@ export const projects = [
       />
     ),
     url: "https://explorenations-ocsiddisco.vercel.app/",
+  },
+];
+
+export const groupProjects = [
+  {
+    id: 10,
+    title: "Zest",
+    description:
+      "Zest is the result of teamwork during a 'Voyage' organized by the community Chingu. Our team built a web app that lets users find and sort recipes. ",
+    stack: [
+      "HTML",
+      "CSS Modules",
+      "Javascript",
+      "React",
+      "React Router",
+      "Redux",
+      "Vite",
+    ],
+    github: "https://github.com/ocsiddisco/v46-tier2-team-16",
+    image: (
+      <Image
+        src="/OvalProjectZest.png"
+        width="170"
+        height="170"
+        alt="image-project"
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
+      />
+    ),
+    url: "https://main--chingu-voyage-v46-tier-2-team-16.netlify.app/",
   },
 ];
 
