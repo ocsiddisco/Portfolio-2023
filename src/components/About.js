@@ -22,22 +22,23 @@ const About = () => {
         </div>
         <div style={montserrat2.style}>
           <p className="text-space">
-            One year ago, I had no idea how to build a website. I started
-            learning from scratch with online courses, discovering the
-            fundamentals of website development with HTML, CSS and Javascript.
-            One step at a time, I kept going, assembling all those pieces
-            together. I dived into React and Node.js, and took my first steps
-            into testing with Jest and deployment with Docker.
+            I enjoy creating websites and applications that offer a great user
+            experience. In the vast world of Front-end, I particularly see the
+            importance of coding with accessibility in mind, providing a good
+            user experience for all.
           </p>
           <p className="text-space">
-            When I look back at this past year, it's great to see the journey
-            that led me to where I am today. It has not been an easy road, it
-            required patience and perseverance.
+            While I'm focused on Front-End, I also want to understand the big
+            picture. I see IT as a big puzzle without borders. Therefore, I
+            build my own puzzle, piece by piece, gaining insights into backend,
+            deployment, cloud, testing, UI Design... Learning this helps me see
+            the full project.
           </p>
           <p className="text-space">
-            Throughout my diverse career, each experience has contributed to the
-            professional I am today. As a developer, I am excited to join a
-            team, continue learning, and take on new challenges.
+            The funny thing about IT is that each one of us builds their own
+            puzzle, spreading the knowledge between team members, making
+            teamwork and communication crucial. I'm a team player, and love
+            watching a product grow through team collaborations!
           </p>
         </div>
 
@@ -52,9 +53,8 @@ const About = () => {
               years ago.
             </p>
             <p className="text-space">
-              In my free time, I enjoy spending time with my family, reading
-              (graphic novels), or playing board games (love monsters, hate
-              zombies!).
+              In my free time, I enjoy spending time with my family, reading, or
+              playing board games (love monsters, hate zombies!).
             </p>
             <p className="text-space">
               One thing you won't catch me doing is jumping from a plane with a

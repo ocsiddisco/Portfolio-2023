@@ -7,7 +7,7 @@ const FixBar = () => {
         <a href="https://github.com/ocsiddisco" target="_blank">
           <Image
             src="/github-60.png"
-            alt="got to github"
+            alt="go to github"
             width="50"
             height="50"
           />
@@ -21,7 +21,7 @@ const FixBar = () => {
         >
           <Image
             src="/linkedin-60.png"
-            alt="got to linkedin"
+            alt="go to linkedin"
             width="50"
             height="50"
           />
@@ -32,7 +32,7 @@ const FixBar = () => {
         <a href="mailto:celine.le.corv@gmail.com" target="_blank">
           <Image
             src="/envelope-60.png"
-            alt="got to email"
+            alt="send email"
             width="50"
             height="50"
           />
