@@ -37,7 +37,7 @@ export const projects = [
     id: 4,
     title: "Make-Up & Hair Artist",
     description: "Portfolio for a fictional make-up & hair artist.",
-    stack: ["HTML", "CSS", "Next.js", "Tailwindcss", "Vercel"],
+    stack: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwindcss", "Vercel"],
     github: "https://github.com/ocsiddisco/MakeUpArtist2023",
     image: (
       <Image
@@ -58,7 +58,7 @@ export const projects = [
     id: 5,
     title: "Portfolio 2023",
     description: "New version of my portfolio.",
-    stack: ["HTML", "CSS", "Next.js", "Vercel"],
+    stack: ["HTML", "CSS", "JavaScript", "Next.js", "Vercel", "Playwright"],
     github: "https://github.com/ocsiddisco/Portfolio-2023",
     image: (
       <Image
@@ -80,7 +80,7 @@ export const projects = [
     title: "Project House Listing",
     description:
       "House listing website allowing you to search, add, update, delete houses.",
-    stack: ["HTML", "CSS", "Vue", "Pinia", "Router"],
+    stack: ["HTML", "CSS", "JavaScript", "Vue", "Pinia", "Router"],
     github: "https://github.com/ocsiddisco/Project-House-Listing",
     image: (
       <Image
@@ -113,6 +113,7 @@ export const projects = [
       "SuperTest",
       "HTML",
       "CSS",
+      "JavaScript",
       "React",
       "React router",
       "React hot toast",
@@ -140,7 +141,7 @@ export const projects = [
     title: "Zin in sommen?",
     description:
       "Personal project made to help my 7-year-old daughter learn mathematics.",
-    stack: ["HTML", "Tailwindcss", "React", "Netlify"],
+    stack: ["HTML", "Tailwindcss", "JavaScript", "React", "Netlify"],
     github: "https://github.com/ocsiddisco/Maths-games",
     image: (
       <Image
@@ -161,7 +162,7 @@ export const projects = [
     id: 9,
     title: "ExploreNations",
     description: "Responsive website presenting data using cards and tables.",
-    stack: ["HTML", "CSS", "Next.js", "Mui Library", "Vercel"],
+    stack: ["HTML", "CSS", "JavaScript", "Next.js", "Mui Library", "Vercel"],
     github: "https://github.com/ocsiddisco/ExploreNations",
     image: (
       <Image
@@ -230,6 +231,7 @@ export const projectsCourses = [
       "REST API",
       "AWS-EC2",
       "Docker",
+      "Javascript",
       "React",
     ],
     github: "https://github.com/ocsiddisco/nasa-project",
@@ -255,6 +257,7 @@ export const projectsCourses = [
     stack: [
       "HTML",
       "CSS",
+      "JavaScript",
       "React",
       "Node.js",
       "Express",
@@ -292,7 +295,6 @@ export const hardSkills = [
   "MongoDB",
   "Rest API",
   "Render",
-  "Github",
   "VS Code",
 ];
 

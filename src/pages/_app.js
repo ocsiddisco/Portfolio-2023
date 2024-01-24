@@ -1,5 +1,4 @@
 import Layout from "@/components/Layout.js";
-import "@/styles/Home.module.css";
 import Head from "next/head";
 import "@/styles/globals.css";
 

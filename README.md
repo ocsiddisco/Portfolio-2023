@@ -6,11 +6,32 @@ This time around, I made sure to prioritize the visual aspect of the portfolio. 
 
 I also took the opportunity to start using the conventionnal commit messages.
 
-### Place for Improvements
+## Place for Improvements
 
 - clean up the CSS file
 - work on SEO
 
-### Start
+## Commands
 
+### Project setup
+
+```
+npm install
+```
+
+### Run development server
+
+```
 npm run dev
+```
+
+### Run test
+
+```
+npx playwright test
+```
+
+## Updates
+
+- Add CSS variables
+- Add testing with Playwright
