@@ -1,0 +1,12 @@
+.layoutContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.layoutInside {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)};
+
+/* .mainContainer {
+    padding: 2rem 2.5rem 2rem 2.5rem;
+} */

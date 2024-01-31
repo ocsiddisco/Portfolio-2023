@@ -2,7 +2,6 @@ import React from "react";
 import { projects, groupProjects, projectsCourses } from "../pages/api/data.js";
 import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
 import CardProject from "./CardProject.js";
-import DropDown from "./DropDown.js";
 
 const Projects = () => {
   const [showGroupProjects, setShowGroupProjects] = React.useState(false);
@@ -31,11 +30,6 @@ const Projects = () => {
           ))}
         </div>
 
-        <DropDown
-          text="Group Projects"
-          handleClick={handleClickGroupProjects}
-          show={showGroupProjects}
-        />
         {showGroupProjects && (
           <div className="projects" style={montserrat2.style}>
             {groupProjects.map((project) => (
