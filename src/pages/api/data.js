@@ -300,9 +300,9 @@ export const hardSkills = [
 
 export const softSkills = [
   "Resourcefulness",
-  "Team-working",
-  "Problem-solving",
+  "Collaboration",
+  "Problem-Solving",
   "Organizational",
-  "Dependability",
-  "Time management",
+  "Take Ownership",
+  "Time Management",
 ];

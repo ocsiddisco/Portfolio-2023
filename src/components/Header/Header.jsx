@@ -38,7 +38,10 @@ const Header = () => {
           </div>
           <div>
             <p>Long version</p>
-            <button onClick={() => setVue("long")}>arrow</button>
+
+            <button onClick={() => setVue("long")}>
+              <div className={styles.arrowRight}></div>
+            </button>
           </div>
         </div>
       ) : (
@@ -59,43 +62,49 @@ const Header = () => {
             to achieve one of my aspirations, which is to learn to sing in tune
             one day.
           </p>
-          <button onClick={() => setVue("short")}>Go back short</button>
+          <div className={styles.arrowLeftContainer}>
+            <button onClick={() => setVue("short")}>
+              <div className={styles.arrowLeft}></div>
+            </button>
+          </div>
         </div>
       )}
       <div>
-        <a href="https://github.com/ocsiddisco" target="_blank">
-          <Image
-            src="/github-60.png"
-            alt="go to github"
-            width="50"
-            height="50"
-          />
+        <a
+          className={styles.link}
+          href="https://github.com/ocsiddisco"
+          target="_blank"
+        >
+          <Image src="/github.png" alt="go to github" width="40" height="40" />
         </a>
 
         <a
+          className={styles.link}
           href="https://www.linkedin.com/in/celinelecorvaisier/"
           target="_blank"
         >
           <Image
-            src="/linkedin-60.png"
+            src="/linkedin.png"
             alt="go to linkedin"
-            width="50"
-            height="50"
+            width="40"
+            height="40"
           />
         </a>
 
-        <a href="mailto:celine.le.corv@gmail.com" target="_blank">
-          <Image
-            src="/envelope-60.png"
-            alt="send email"
-            width="50"
-            height="50"
-          />
+        <a
+          className={styles.link}
+          href="mailto:celine.le.corv@gmail.com"
+          target="_blank"
+        >
+          <Image src="/envelope.png" alt="send email" width="40" height="40" />
         </a>
-        <a href="/CelineLeCorvaisier.pdf" download>
-          <button className="sm" style={montserrat2.style}>
-            Download CV
-          </button>
+        <a className={styles.link} href="/CelineLeCorvaisier.pdf" download>
+          <Image
+            src="/download.png"
+            alt="download my resume"
+            width="40"
+            height="40"
+          />
         </a>
       </div>
     </header>
