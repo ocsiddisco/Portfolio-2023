@@ -4,7 +4,7 @@ import styles from "./Skills.module.css";
 
 const Skills = () => {
   return (
-    <div className={styles.skillsContainer}>
+    <div id="skills" className={styles.skillsContainer}>
       <div className={styles.skillsInside}>
         <div className={styles.softSkillsContainer}>
           <h3 className={styles.skillsTitel} style={exo2.style}>

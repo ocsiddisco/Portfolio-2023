@@ -23,7 +23,7 @@ body {
 
 
 
-button {
+/* button {
   border-radius: 100rem;
   padding: 1rem;
   font-size: 1rem;
@@ -47,16 +47,9 @@ button {
 button:hover {
   box-shadow: none;
   color: white;
-}
+} */
 
 
-.expand {
-  border:none;
-  box-shadow: none;
-  background: none;
-  margin: 0;
-  padding: 0;
-}
 
 
 /* FixBar 
@@ -346,14 +339,14 @@ a {
     color: inherit;
 } */
 
-input,
+/* input,
 button,
 textarea,
 select {
   font: inherit;
   color: inherit;
   max-width: 100%;
-}
+} */
 
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -390,13 +383,6 @@ div {
   font-size: 1rem;
 }
 
-button {
-  padding: 0.3rem;
-  border: 1px solid var(--clr-medium-green);
-  border-radius: var(--b-radius);
-  font-size: 0.9rem;
-  cursor: pointer;
-}
 
 input {
   border-radius: var(--b-radius);

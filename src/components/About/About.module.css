@@ -1,0 +1,97 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.textAbout {
+    margin-top: 0.8rem;
+    line-height: 1.4;
+}
+.link:hover{
+    cursor: pointer;
+
+}
+
+/* Arrows */
+
+.arrowContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--WhiteColor);
+  
+  }
+  .buttonArrow {
+    cursor: pointer;
+    border: none;
+    background-color: var(--WhiteColor);
+  
+  
+  }
+  .arrowRight{
+      display:inline-block;
+      float:left;
+      cursor:pointer;
+      background-color: var(--WhiteColor);
+    }
+    
+    .arrowRight:before{
+      content:'';
+      height:3px;
+      width:2rem;
+      background-color: var(--GreyColor);
+      display:block;
+      float:left;
+      position:relative;
+      top:7px;
+      transition:0.3s ease-in-out;
+    }
+    
+    .arrowRight:after{
+      content:'';
+      float:left;
+      border-left:9px solid var(--GreyColor);
+      border-right:9px solid transparent;
+      border-top:9px solid transparent;
+      border-bottom:9px solid transparent;
+    }
+    
+    .arrowRight:hover:before{
+      width:3.5rem;
+    }
+  
+    .arrowLeftContainer {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .arrowLeft{
+      display:inline-block;
+      /* float:right; */
+      cursor:pointer;
+    }
+    
+    .arrowLeft:before{
+      content:'';
+      height:3px;
+      width:2rem;
+      background-color:var(--GreyColor);
+      display:block;
+      float:right;
+      position:relative;
+      top:7px;
+      transition:0.3s ease-in-out;
+    }
+    
+    .arrowLeft:after{
+      content:'';
+      float:right;
+      border-left:9px solid transparent;
+      border-right:9px solid var(--GreyColor);
+      border-top:9px solid transparent;
+      border-bottom:9px solid transparent;
+    }
+    
+    .arrowLeft:hover:before{
+      width:3.5rem;
+    }

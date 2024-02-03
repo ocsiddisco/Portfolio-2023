@@ -9,12 +9,7 @@ const CardProject = ({ project }) => {
           <div className="container-top-card">
             <div className="headerproject">
               <a href={project.github} target="_blank">
-                <Image
-                  src="/github-60.png"
-                  alt="github"
-                  width="40"
-                  height="40"
-                />
+                <Image src="/github.png" alt="github" width="40" height="40" />
               </a>
               <h4>{project.title}</h4>
             </div>

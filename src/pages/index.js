@@ -1,11 +1,18 @@
-import Skills from "@/components/Skills/Skills.jsx";
-import Projects from "@/components/Projects.js";
+import Skills from "@/components/Skills/Skills";
+import About from "@/components/About/About";
+import SoloProjects from "@/components/SoloProjects/SoloProjects";
+import GroupProjects from "@/components/GroupProjects/GroupProjects";
 
-export default function Home() {
+export default function Index() {
   return (
     <>
+      <About />
+
       <Skills />
-      {/* <Projects /> */}
+
+      <SoloProjects />
+
+      <GroupProjects />
     </>
   );
 }
