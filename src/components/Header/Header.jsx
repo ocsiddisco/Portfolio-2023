@@ -9,18 +9,17 @@ const Header = () => {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerIntroduction} style={montserrat2.style}>
-        <h1 className={styles.textIntroduction}>Hi there!</h1>
-        <h2 className={styles.textIntroduction}>I am Céline</h2>
+        <h2 className={styles.textIntroduction}>Hi there,</h2>
+        <h2 className={styles.textIntroduction}>I am Céline!</h2>
         <h2 className={styles.textIntroduction}>Front-End Developer</h2>
-      </div>
-
-      <div style={montserrat2.style}>
-        <p className={styles.textAbout}>
-          I enjoy creating websites and applications that offer a great user
-          experience. In the vast world of Front-end, I particularly see the
-          importance of coding with accessibility in mind, providing a good user
-          experience for all.
-        </p>
+        <div className={styles.textAbout} style={montserrat2.style}>
+          <p>
+            I enjoy creating websites and applications that offer a great user
+            experience. In the vast world of Front-end, I particularly see the
+            importance of coding with accessibility in mind, providing a good
+            user experience for all.
+          </p>
+        </div>
       </div>
 
       <div>

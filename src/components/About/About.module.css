@@ -1,7 +1,19 @@
+.aboutSection {
+  height: 100%;
+
+}
 .aboutContainer {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+  }
+
+.aboutInside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2.5rem 0 2.5rem 0;
 }
 
 .textAbout {
@@ -10,7 +22,10 @@
 }
 .link:hover{
     cursor: pointer;
+}
 
+.textVersion{
+  margin-right: 5px;
 }
 
 /* Arrows */

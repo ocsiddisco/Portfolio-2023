@@ -2,7 +2,7 @@ import Layout from "@/components/Layout/Layout.jsx";
 import Head from "next/head";
 import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component }) {
   return (
     <>
       <Head>
@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
         />
       </Head>
       <Layout>
-        <Component {...pageProps} />
+        <Component />
       </Layout>
     </>
   );

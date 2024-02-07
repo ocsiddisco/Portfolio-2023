@@ -1,24 +1,17 @@
 import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
 import { hardSkills, softSkills } from "../../pages/api/data.js";
 import styles from "./Skills.module.css";
+import ListSkills from "../ListSkills/ListSkills.jsx";
 
 const Skills = () => {
   return (
-    <div id="skills" className={styles.skillsContainer}>
+    <section id="skills" className={styles.skillsContainer}>
       <div className={styles.skillsInside}>
         <div className={styles.softSkillsContainer}>
           <h3 className={styles.skillsTitel} style={exo2.style}>
             Soft Skills
           </h3>
-          <div className={styles.listSkills} style={montserrat2.style}>
-            {softSkills.map((skill, i) => {
-              return (
-                <p className={styles.skillsBox} key={i}>
-                  {skill}
-                </p>
-              );
-            })}
-          </div>
+          <ListSkills skills={softSkills} />
         </div>
 
         <div className={styles.hardSkillsContainer}>
@@ -26,18 +19,10 @@ const Skills = () => {
             Hard Skills
           </h3>
 
-          <div className={styles.listSkills} style={montserrat2.style}>
-            {hardSkills.map((skill, i) => {
-              return (
-                <p className={styles.skillsBox} key={i}>
-                  {skill}
-                </p>
-              );
-            })}
-          </div>
+          <ListSkills skills={hardSkills} />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

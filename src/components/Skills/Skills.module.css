@@ -1,7 +1,7 @@
 .skillsContainer {
 display: flex;
-padding: 2rem 5rem 2rem 2.5rem;
 height: 100%;
+padding-top: 2.5rem;
 
 }
 
@@ -14,31 +14,16 @@ height: 100%;
 .hardSkillsContainer {
 display: flex;
 flex-direction: column;
+padding-top: 2.5rem;
+
 }
 
-.listSkills{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
-    padding-top: 1rem;
-}
 
 .softSkillsContainer {
     display: flex;
     flex-direction: column;
 }
 
-.skillsBox {
-    border-style: solid;
-    background-color: var(--WhiteColor);
-    border-radius: 5px;
-    color:  var(--GreyColor);
-    padding: 5px;
-    border-color:  var(--GreyColor);
-    border-width: 1px;
-    margin: 3px;
-    line-height: 18px;
-  }
 
   .skillsTitel {
     background-image: linear-gradient(to top, #f17a7e, #f58179, #f88975, #f99171, #fa9a6e, #fca06a, #fda767, #fdae64, #ffb45e, #ffbb58, #ffc251, #ffc94b);  

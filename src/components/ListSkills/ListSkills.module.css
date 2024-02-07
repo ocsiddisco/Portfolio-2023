@@ -1,28 +1,13 @@
-.containerCardProject{
+
+.listSkills{
     display: flex;
     flex-direction: row;
-}
-
-.containerProjectInfo{
-    display: flex;
-    flex-direction: column;
-}
-
-.containerTitel {
-    display: flex;
-    flex-direction: row;
-}
-
-.projectDescription{}
-
-.projectStack {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
+    flex-wrap: wrap ;
+    padding-top: 1rem;
 }
 
 .skillsBox {
+    list-style-type: none;
     border-style: solid;
     background-color: var(--WhiteColor);
     border-radius: 20px;

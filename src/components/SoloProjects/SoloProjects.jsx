@@ -5,25 +5,25 @@ import {
   projectsCourses,
 } from "../../pages/api/data.js";
 import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
+import styles from "./SoloProjects.module.css";
+
 import CardProject from "../CardProject/CardProject";
 
 const SoloProjects = () => {
   return (
-    <div id="#soloprojects" className="container-projects">
-      <div className="projects-inside">
-        <div>
-          <h2 className="gradient-text" style={exo2.style}>
-            Solo Projects
-          </h2>
-        </div>
+    <section id="soloprojects" className={styles.containerSoloProjects}>
+      <div className={styles.insideSoloProjects}>
+        <h3 className={styles.projectsTitel} style={exo2.style}>
+          Solo Projects
+        </h3>
 
-        <div className="projects" style={montserrat2.style}>
+        <div className={styles.listProjects} style={montserrat2.style}>
           {projects.map((project) => (
             <CardProject project={project} key={project.id} />
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

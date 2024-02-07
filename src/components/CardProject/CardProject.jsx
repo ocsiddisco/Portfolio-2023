@@ -1,32 +1,18 @@
 import Image from "next/image";
 import { montserrat2 } from "@/styles/utils/fonts.js";
+import styles from "./CardProject.module.css";
+import ListSkills from "../ListSkills";
 
 const CardProject = ({ project }) => {
   return (
-    <>
-      <div className="project-card">
-        <div className="card">
-          <div className="container-top-card">
-            <div className="headerproject">
-              <a href={project.github} target="_blank">
-                <Image src="/github.png" alt="github" width="40" height="40" />
-              </a>
-              <h4>{project.title}</h4>
-            </div>
-            <div className="image">{project.image}</div>
-
-            <p className="project-description">{project.description}</p>
-            <div className="list-stack">
-              {project.stack.map((item, i) => {
-                return (
-                  <p className="skills-box" key={i}>
-                    {item}
-                  </p>
-                );
-              })}
-            </div>
-          </div>
-
+    <div className={styles.containerCardProject}>
+      <div className="image">{project.image}</div>
+      <div className={styles.containerProjectInfo}>
+        <div className={styles.containerTitel}>
+          <a href={project.github} target="_blank">
+            <Image src="/github.png" alt="github" width="40" height="40" />
+          </a>
+          <h4>{project.title}</h4>
           <div className="demo-button">
             {!!project.url && (
               <a
@@ -39,8 +25,20 @@ const CardProject = ({ project }) => {
             )}
           </div>
         </div>
+        <div className={styles.projectDescription}>
+          <p>{project.description}</p>
+        </div>
+        <ul className={styles.projectStack}>
+          {project.stack.map((item, i) => {
+            return (
+              <li className={styles.skillsBox} key={i}>
+                {item}
+              </li>
+            );
+          })}
+        </ul>
       </div>
-    </>
+    </div>
   );
 };
 
