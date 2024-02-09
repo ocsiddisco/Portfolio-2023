@@ -212,6 +212,60 @@ export const groupProjects = [
     ),
     url: "https://main--chingu-voyage-v46-tier-2-team-16.netlify.app/",
   },
+  {
+    id: 11,
+    title: "Task Zen -ongoing-",
+    description:
+      "Task Zen is the result of teamwork during a 'Voyage' organized by the community Chingu. Our team built a daily tasks management application. It allows users to work alone or in team on a task, to set a weekly or monthly recurrence.",
+    stack: [
+      "HTML",
+      "Tailwind",
+      "Javascript",
+      "React",
+      "React Router",
+      "Node.js",
+      "Express",
+      "JWT",
+      "Mongo DB",
+    ],
+    github: "https://github.com/chingu-voyages/v47-tier3-team-27",
+    image: (
+      <Image
+        src="/OvalProjectTaskZen.png"
+        width="170"
+        height="170"
+        alt="image-project"
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
+      />
+    ),
+    url: "",
+  },
+  {
+    id: 12,
+    title: "Smart Shopping List -ongoing-",
+    description:
+      "Thanks to the community The Collab Lab, I get the opportunity to work on a group project, supported with a team of mentors. We practice pair-programming, learn best practices for PR and reviews, get feedbacks on our code... The project just started, and the learnings are already tangible.",
+    stack: ["HTML", "CSS", "Javascript", "React", "React Router", "FireBase"],
+    github: "https://github.com/chingu-voyages/v47-tier3-team-27",
+    image: (
+      <Image
+        src="/OvalProjectSmart.png"
+        width="170"
+        height="170"
+        alt="image-project"
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
+      />
+    ),
+    url: "",
+  },
 ];
 
 export const projectsCourses = [
@@ -286,6 +340,8 @@ export const projectsCourses = [
 export const hardSkills = [
   "HTML",
   "CSS",
+  "TailwindCSS",
+  "Module CSS",
   "JavaScript",
   "React",
   "Redux",
@@ -296,6 +352,9 @@ export const hardSkills = [
   "Rest API",
   "Render",
   "VS Code",
+  "Azure",
+  "Postman",
+  "Git",
 ];
 
 export const softSkills = [

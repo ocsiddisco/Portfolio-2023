@@ -1,6 +1,7 @@
 .containerGroupProjects{
-    height: 100%;
+    height: fit-content;
     padding-top: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .insideGroupProjects{
