@@ -9,7 +9,7 @@ margin-top: 5rem;
 padding: 0rem 5rem 0rem 5rem;
 height: calc(100% - 7rem);
 display: grid;
-grid-template-columns: repeat(2, 1fr);
+grid-template-columns: 2fr 3fr;
 }
 
 .mainContainer {

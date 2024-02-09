@@ -3,17 +3,15 @@ import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
 
 const ListSkills = ({ skills }) => {
   return (
-    <>
-      <ul className={styles.listSkills} style={montserrat2.style}>
-        {skills.map((skill, i) => {
-          return (
-            <li className={styles.skillsBox} key={i}>
-              {skill}
-            </li>
-          );
-        })}
-      </ul>
-    </>
+    <ul className={styles.listSkills} style={montserrat2.style}>
+      {skills.map((skill, i) => {
+        return (
+          <li className={styles.skillsBox} key={i}>
+            {skill}
+          </li>
+        );
+      })}
+    </ul>
   );
 };
 

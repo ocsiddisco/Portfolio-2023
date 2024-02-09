@@ -1,6 +1,6 @@
 .aboutSection {
   height: 100%;
-
+text-align: justify;
 }
 .aboutContainer {
     display: flex;
@@ -33,28 +33,25 @@
 .arrowContainer {
     display: flex;
     flex-direction: row;
-    background-color: var(--WhiteColor);
   
   }
   .buttonArrow {
     cursor: pointer;
     border: none;
-    background-color: var(--WhiteColor);
-  
-  
+    background: var(--dark-theme-background-color);
   }
+
   .arrowRight{
       display:inline-block;
       float:left;
       cursor:pointer;
-      background-color: var(--WhiteColor);
     }
     
     .arrowRight:before{
       content:'';
       height:3px;
       width:2rem;
-      background-color: var(--GreyColor);
+      background-color: var(--dark-theme-white60);
       display:block;
       float:left;
       position:relative;
@@ -65,7 +62,7 @@
     .arrowRight:after{
       content:'';
       float:left;
-      border-left:9px solid var(--GreyColor);
+      border-left:9px solid var(--dark-theme-white60);
       border-right:9px solid transparent;
       border-top:9px solid transparent;
       border-bottom:9px solid transparent;
@@ -90,7 +87,7 @@
       content:'';
       height:3px;
       width:2rem;
-      background-color:var(--GreyColor);
+      background-color:var(--dark-theme-white60);
       display:block;
       float:right;
       position:relative;
@@ -102,7 +99,7 @@
       content:'';
       float:right;
       border-left:9px solid transparent;
-      border-right:9px solid var(--GreyColor);
+      border-right:9px solid var(--dark-theme-white60);
       border-top:9px solid transparent;
       border-bottom:9px solid transparent;
     }

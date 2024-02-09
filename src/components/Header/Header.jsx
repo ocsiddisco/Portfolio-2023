@@ -28,7 +28,12 @@ const Header = () => {
           href="https://github.com/ocsiddisco"
           target="_blank"
         >
-          <Image src="/github.png" alt="go to github" width="40" height="40" />
+          <Image
+            src="/dm-github.png"
+            alt="go to github"
+            width="40"
+            height="40"
+          />
         </a>
 
         <a
@@ -37,7 +42,7 @@ const Header = () => {
           target="_blank"
         >
           <Image
-            src="/linkedin.png"
+            src="/dm-linkedin.png"
             alt="go to linkedin"
             width="40"
             height="40"
@@ -49,11 +54,11 @@ const Header = () => {
           href="mailto:celine.le.corv@gmail.com"
           target="_blank"
         >
-          <Image src="/envelope.png" alt="send email" width="40" height="40" />
+          <Image src="/dm-email.png" alt="send email" width="40" height="40" />
         </a>
         <a className={styles.link} href="/CelineLeCorvaisier.pdf" download>
           <Image
-            src="/download.png"
+            src="/dm-cv.png"
             alt="download my resume"
             width="40"
             height="40"

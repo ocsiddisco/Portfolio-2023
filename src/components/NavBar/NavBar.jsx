@@ -6,20 +6,18 @@ const NavBar = () => {
   return (
     <nav className={styles.navigationContainer}>
       <div className={styles.navigationInside}>
-        <h6>[</h6>
-        <Link href="#about">
-          <h6>"About",</h6>
+        <Link href="#about" className={styles.navSpace}>
+          <h6>About</h6>
         </Link>
-        <Link href="#skills">
-          <h6>"Skills",</h6>
+        <Link href="#skills" className={styles.navSpace}>
+          <h6>Skills</h6>
         </Link>
-        <Link href="#soloprojects">
-          <h6>"Solo projects",</h6>
+        <Link href="#soloprojects" className={styles.navSpace}>
+          <h6>Solo projects</h6>
         </Link>
-        <Link href="#groupprojects">
-          <h6>"Group projects"</h6>
+        <Link href="#groupprojects" className={styles.navSpace}>
+          <h6>Group projects</h6>
         </Link>
-        <h6>]</h6>
       </div>
     </nav>
   );

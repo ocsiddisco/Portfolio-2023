@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     height:2rem;
-    background-image: linear-gradient(to top, #f17a7e, #f58179, #f88975, #f99171, #fa9a6e, #fca06a, #fda767, #fdae64, #ffb45e, #ffbb58, #ffc251, #ffc94b);;
 position: fixed;
 bottom: 0;
 }

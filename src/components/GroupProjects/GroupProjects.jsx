@@ -6,7 +6,6 @@ import {
 } from "../../pages/api/data.js";
 import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
 import styles from "./GroupProjects.module.css";
-
 import CardProject from "../CardProject/CardProject";
 
 const GroupProjects = () => {
