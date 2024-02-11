@@ -17,7 +17,7 @@
 
 .textAbout {
     line-height: 1.4;
-    padding-right: 5rem;
+    padding-right: 2rem;
     padding-top: 2.5rem;
 }
 
@@ -31,3 +31,24 @@
 
 }
 
+@media only screen and (max-width: 900px) {
+        .linkContainer {
+        padding-top: 2.5rem;
+        }   
+  }
+
+  @media only screen and (max-width: 750px) {
+    .headerContainer {
+        padding-right: 0rem;
+
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .textIntroduction {
+   font-size: 1.5rem;
+    }
+    .textAbout {
+padding-right: 0rem;
+    }
+  }

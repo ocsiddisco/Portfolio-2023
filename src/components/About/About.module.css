@@ -28,6 +28,19 @@ text-align: justify;
   margin-right: 5px;
 }
 
+@media only screen and (max-width: 900px) {
+  .aboutSection {
+      height: fit-content;
+          }
+          .arrowContainer {
+            padding-top: 2.5rem;
+          }
+          .arrowLeftContainer {
+            padding-top: 2.5rem;
+
+          }
+}
+
 /* Arrows */
 
 .arrowContainer {

@@ -41,4 +41,19 @@ transform: scale(1.2);
 
 }
 
+@media only screen and (max-width: 600px) {
 
+.containerImageProject {
+    display: none;
+}
+.containerProjectInfo {
+    padding-left: 1rem;
+}
+}
+
+@media only screen and (max-width: 450px) {
+    .projectDescription {
+        padding-top:1rem;
+        padding-bottom: 1rem;
+    }
+}

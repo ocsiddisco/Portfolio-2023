@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div>
+      <div className={styles.linkContainer}>
         <a
           className={styles.link}
           href="https://github.com/ocsiddisco"

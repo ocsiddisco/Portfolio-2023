@@ -6,7 +6,7 @@ import ListSkills from "../ListSkills/ListSkills";
 const CardProject = ({ project }) => {
   return (
     <div className={styles.containerCardProject}>
-      <div className="image">{project.image}</div>
+      <div className={styles.containerImageProject}>{project.image}</div>
       <div className={styles.containerProjectInfo}>
         <div className={styles.containerTitel}>
           <a
