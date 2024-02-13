@@ -56,13 +56,14 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Portfolio 2023",
-    description: "New version of my portfolio.",
-    stack: ["HTML", "CSS", "JavaScript", "Next.js", "Vercel", "Playwright"],
+    title: "Portfolio 2024",
+    description:
+      "This is my third portfolio, and it reflects the journey of learning and the evolution of my skills.",
+    stack: ["HTML", "ModulesCSS", "JavaScript", "Next.js", "Vercel"],
     github: "https://github.com/ocsiddisco/Portfolio-2023",
     image: (
       <Image
-        src="/OvalProjectP.png"
+        src="/OvalProjectNewP.png"
         width="170"
         height="170"
         alt="image-project"
@@ -159,6 +160,27 @@ export const projects = [
     url: "https://main--vermillion-gnome-8e6924.netlify.app/",
   },
   {
+    id: 13,
+    title: "Portfolio 2023",
+    description: "This is the second portfolio I built.",
+    stack: ["HTML", "CSS", "JavaScript", "Next.js", "Vercel", "Playwright"],
+    github: "https://github.com/ocsiddisco/Portfolio-2023",
+    image: (
+      <Image
+        src="/OvalProjectP.png"
+        width="170"
+        height="170"
+        alt="image-project"
+        style={{
+          borderStyle: "none",
+          borderRadius: "10px",
+          objectFit: "contain",
+        }}
+      />
+    ),
+    url: "",
+  },
+  {
     id: 9,
     title: "ExploreNations",
     description: "Responsive website presenting data using cards and tables.",
@@ -218,14 +240,17 @@ export const groupProjects = [
     description:
       "Task Zen is the result of teamwork during a 'Voyage' organized by the community Chingu. Our team built a daily tasks management application. It allows users to work alone or in team on a task, to set a weekly or monthly recurrence.",
     stack: [
+      "Figma",
       "HTML",
-      "Tailwind",
+      "TailwindCSS",
       "Javascript",
       "React",
       "React Router",
+      "Context",
       "Node.js",
       "Express",
       "JWT",
+      "Mongoose",
       "Mongo DB",
     ],
     github: "https://github.com/chingu-voyages/v47-tier3-team-27",
@@ -242,15 +267,23 @@ export const groupProjects = [
         }}
       />
     ),
-    url: "",
+    url: "https://taskzen-website.onrender.com/",
   },
   {
     id: 12,
     title: "Smart Shopping List -ongoing-",
     description:
       "Thanks to the community The Collab Lab, I get the opportunity to work on a group project, supported with a team of mentors. We practice pair-programming, learn best practices for PR and reviews, get feedbacks on our code... The project just started, and the learnings are already tangible.",
-    stack: ["HTML", "CSS", "Javascript", "React", "React Router", "FireBase"],
-    github: "https://github.com/chingu-voyages/v47-tier3-team-27",
+    stack: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "React Router",
+      "FireBase",
+      "Pair-programming",
+    ],
+    github: "https://github.com/the-collab-lab/tcl-71-smart-shopping-list",
     image: (
       <Image
         src="/OvalProjectSmart.png"
@@ -264,7 +297,7 @@ export const groupProjects = [
         }}
       />
     ),
-    url: "",
+    url: "https://tcl-71-smart-shopping-list.web.app/",
   },
 ];
 

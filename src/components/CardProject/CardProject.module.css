@@ -37,8 +37,9 @@ transform: scale(1.2);
 }
 
 .projectDescription{
-    padding-top:0.5rem;
-
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
 }
 
 @media only screen and (max-width: 600px) {
