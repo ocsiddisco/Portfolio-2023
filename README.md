@@ -35,3 +35,8 @@ npx playwright test
 
 - Add CSS variables
 - Add testing with Playwright
+
+## Take a peek at the V1 
+
+![portfolio2023](https://github.com/ocsiddisco/Portfolio-2023/assets/114222588/b0d56288-7aa2-4b7d-9876-1214789b179a)
+
