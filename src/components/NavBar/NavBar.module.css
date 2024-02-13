@@ -1,0 +1,55 @@
+.navigationContainer {
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 1px solid var(--dark-theme-white60);
+    position: fixed;
+z-index: 10;
+}
+
+.navigationInside {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-right: 5rem;
+}
+
+.navSpace {
+    margin-left:1rem
+}
+
+.navSpace :hover {
+    transition: color 2s ease-in-out;
+    transition: text-decoration 2s ease-in-out;
+    text-decoration: underline;
+    color: var(--dark-theme-orange)
+}
+
+.navSpaceActive {
+    text-decoration: underline;
+    color: var(--dark-theme-orange)
+}
+
+@media only screen and (max-width: 650px) {
+    .navigationInside{
+        justify-content: center;
+        margin-right: 0rem;
+
+    }
+    .navName{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navigationContainer {
+        justify-content: center;
+        padding: 0rem 5rem 0rem 5rem
+    }
+    .navigationInside {
+        width: 80%;
+        margin-right: 0rem;
+} ;
+   }

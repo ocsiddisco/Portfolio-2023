@@ -1,0 +1,18 @@
+.containerGroupProjects{
+    height: fit-content;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.insideGroupProjects{
+
+}
+
+.projectsTitel{
+   
+}
+
+.listProjects{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,36 @@
+.skillsContainer {
+display: flex;
+height: 100%;
+padding-top: 2.5rem;
+
+}
+
+.skillsInside {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hardSkillsContainer {
+display: flex;
+flex-direction: column;
+padding-top: 2.5rem;
+
+}
+
+
+.softSkillsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+  .skillsTitel {
+   }
+
+   @media only screen and (max-width: 900px) {
+    .skillsContainer {
+        height: fit-content;
+        padding-bottom: 2.5rem;
+    }
+   }

@@ -1,0 +1,60 @@
+.containerCardProject{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    padding: 1rem 0 1rem 0;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.containerCardProject:hover {
+    background-color:var(--dark-theme-bg-hover)
+
+}
+
+.containerProjectInfo{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+
+.githubLink{
+    padding-right:0.5rem;
+}
+
+.titleName{
+    padding-right:0.5rem;
+}
+
+.linkDemo :hover{
+transform: scale(1.2);
+}
+
+.containerTitel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projectDescription{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+.containerImageProject {
+    display: none;
+}
+.containerProjectInfo {
+    padding-left: 1rem;
+}
+}
+
+@media only screen and (max-width: 450px) {
+    .projectDescription {
+        padding-top:1rem;
+        padding-bottom: 1rem;
+    }
+}

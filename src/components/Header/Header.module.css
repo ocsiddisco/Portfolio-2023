@@ -1,0 +1,54 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between; 
+    padding: 2.5rem 5rem 2.5rem 0 ;
+}
+
+.headerIntroduction {
+    display: flex;
+    flex-direction: column;
+}
+
+.textIntroduction {
+   
+}
+
+.textAbout {
+    line-height: 1.4;
+    padding-right: 2rem;
+    padding-top: 2.5rem;
+}
+
+.link {
+    padding-right: 0.5rem;
+    opacity:85%;
+
+}
+.link:hover{
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 900px) {
+        .linkContainer {
+        padding-top: 2.5rem;
+        }   
+  }
+
+  @media only screen and (max-width: 750px) {
+    .headerContainer {
+        padding-right: 0rem;
+
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .textIntroduction {
+   font-size: 1.5rem;
+    }
+    .textAbout {
+padding-right: 0rem;
+    }
+  }
