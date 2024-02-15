@@ -154,7 +154,7 @@ export const projects = [
     id: 2,
     title: "Treenation API",
     description:
-      "Consumes Treenation API to present projects available for funding. Api calls are stored in Redux store and results are used through the app to display the data.",
+      "Consumes Treenation API to present projects available for funding. API calls are stored in Redux store and results are used through the app to display the data.",
     stack: [
       "HTML",
       "CSS",
