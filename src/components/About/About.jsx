@@ -31,7 +31,7 @@ const About = () => {
                 collaborations!
               </p>
             </div>
-            <div className={styles.arrowContainer}>
+            <div className={styles.arrowRightContainer}>
               <p className={styles.textVersion}>Long version</p>
 
               <button
