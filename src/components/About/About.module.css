@@ -43,7 +43,7 @@ text-align: justify;
 
 /* Arrows */
 
-.arrowContainer {
+.arrowRightContainer {
     display: flex;
     flex-direction: row;
   
@@ -119,4 +119,14 @@ text-align: justify;
     
     .arrowLeft:hover:before{
       width:3.5rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .aboutInside {
+        justify-content:unset;
+      }
+
+      .arrowRightContainer, .arrowLeftContainer{
+        margin-top: 4rem;
+      }
     }
