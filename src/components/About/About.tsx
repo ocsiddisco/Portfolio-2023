@@ -1,9 +1,9 @@
-import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.js";
+import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.ts";
 import styles from "./About.module.css";
 import { useState } from "react";
 
 const About = () => {
-  const [vue, setVue] = useState("short");
+  const [vue, setVue] = useState<string>("short");
 
   return (
     <section id="about" className={styles.aboutSection}>

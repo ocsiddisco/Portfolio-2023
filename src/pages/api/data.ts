@@ -1,6 +1,15 @@
-import Image from "next/image";
+type Project = {
+  id: number
+  title: string
+  description: string
+  stack: string[]
+  github: string
+  image: string
+  url: string
+}
 
-export const projects = [
+
+export const projects: Project[] = [
   {
     id: 5,
     title: "Portfolio",
@@ -8,19 +17,7 @@ export const projects = [
       "This is my third portfolio, and it reflects the journey of learning and the evolution of my skills.",
     stack: ["HTML", "ModulesCSS", "JavaScript", "Next.js", "Vercel"],
     github: "https://github.com/ocsiddisco/Portfolio-2023",
-    image: (
-      <Image
-        src="/OvalProjectNewP.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image:"/OvalProjectNewP.png",
     url: "",
   },
   {
@@ -29,19 +26,7 @@ export const projects = [
     description: "Responsive website presenting data using cards and tables.",
     stack: ["HTML", "CSS", "JavaScript", "Next.js", "Mui Library", "Vercel"],
     github: "https://github.com/ocsiddisco/ExploreNations",
-    image: (
-      <Image
-        src="/OvalProjectEN.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectEN.png",
     url: "https://explorenations-ocsiddisco.vercel.app/",
   },
   {
@@ -68,19 +53,7 @@ export const projects = [
       "Render",
     ],
     github: "https://github.com/ocsiddisco/todo2023",
-    image: (
-      <Image
-        src="/OvalProjectL.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectL.png",
     url: "https://todo-app-frontend-istz.onrender.com/",
   },
   {
@@ -90,19 +63,7 @@ export const projects = [
       "Portfolio for a fictional make-up & hair artist. On the homepage, it uses a parallax effect. On the Bridal and Fashion page, a grid was used to structure the presentation of photos.",
     stack: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwindcss", "Vercel"],
     github: "https://github.com/ocsiddisco/MakeUpArtist2023",
-    image: (
-      <Image
-        src="/OvalProjectM.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectM.png",
     url: "https://make-up-artist2023.vercel.app/",
   },
 
@@ -113,19 +74,7 @@ export const projects = [
       "My first project using Vue.js (composition API). It is a house listing website allowing you to search, add, update, delete houses.",
     stack: ["HTML", "CSS", "JavaScript", "Vue", "Pinia", "Router"],
     github: "https://github.com/ocsiddisco/Project-House-Listing",
-    image: (
-      <Image
-        src="/OvalProjectH.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectH.png",
     url: "",
   },
   {
@@ -135,19 +84,7 @@ export const projects = [
       "Personal project made to help my 7-year-old daughter learn mathematics.",
     stack: ["HTML", "Tailwindcss", "JavaScript", "React", "Netlify"],
     github: "https://github.com/ocsiddisco/Maths-games",
-    image: (
-      <Image
-        src="/OvalProjectZS.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectZS.png",
     url: "https://main--vermillion-gnome-8e6924.netlify.app/",
   },
   {
@@ -167,19 +104,7 @@ export const projects = [
       "Render",
     ],
     github: "https://github.com/ocsiddisco/Treenation-Project",
-    image: (
-      <Image
-        src="/OvalProjectT.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectT.png",
     url: "https://treenation-project.onrender.com/",
   },
 ];
@@ -202,24 +127,12 @@ export const groupProjects = [
       "Pair-programming",
     ],
     github: "https://github.com/the-collab-lab/tcl-71-smart-shopping-list",
-    image: (
-      <Image
-        src="/OvalProjectSmart.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectSmart.png",
     url: "https://tcl-71-smart-shopping-list.web.app/",
   },
   {
     id: 11,
-    title: "Task Zen -ongoing-",
+    title: "Task Zen",
     description:
       "During a Chingu Voyage, our team created Task Zen: a collaborative daily task app with weekly/monthly recurrence. I contributed on the design (Figma), the backend authentication, and frontend parts as well.",
     stack: [
@@ -239,19 +152,7 @@ export const groupProjects = [
       "Team Work",
     ],
     github: "https://github.com/chingu-voyages/v47-tier3-team-27",
-    image: (
-      <Image
-        src="/OvalProjectTaskZen.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectTaskZen.png",
     url: "https://taskzen-website.onrender.com/",
   },
   {
@@ -271,19 +172,7 @@ export const groupProjects = [
       "Team Work",
     ],
     github: "https://github.com/ocsiddisco/v46-tier2-team-16",
-    image: (
-      <Image
-        src="/OvalProjectZest.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectZest.png",
     url: "https://main--chingu-voyage-v46-tier-2-team-16.netlify.app/",
   },
 ];
@@ -309,19 +198,7 @@ export const projectsCourses = [
       "React",
     ],
     github: "https://github.com/ocsiddisco/nasa-project",
-    image: (
-      <Image
-        src="/OvalProjectN.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectN.png",
     url: "http://54.86.7.148:8000/launch",
   },
   {
@@ -340,24 +217,12 @@ export const projectsCourses = [
       "AWS RDS",
     ],
     github: "https://github.com/ocsiddisco/Face-Recognition",
-    image: (
-      <Image
-        src="/OvalProjectS.png"
-        width="170"
-        height="170"
-        alt="image-project"
-        style={{
-          borderStyle: "none",
-          borderRadius: "10px",
-          objectFit: "contain",
-        }}
-      />
-    ),
+    image: "/OvalProjectS.png",
     url: "https://face-recognition-front-mm4d.onrender.com/",
   },
 ];
 
-export const hardSkills = [
+export const hardSkills: string[] = [
   "HTML",
   "CSS",
   "TailwindCSS",
@@ -377,7 +242,7 @@ export const hardSkills = [
   "Git",
 ];
 
-export const softSkills = [
+export const softSkills: string[]= [
   "Resourcefulness",
   "Collaboration",
   "Problem-Solving",

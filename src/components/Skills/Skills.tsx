@@ -1,7 +1,7 @@
-import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
-import { hardSkills, softSkills } from "../../pages/api/data.js";
+import { exo2, montserrat2 } from "@/styles/utils/fonts.ts";
+import { hardSkills, softSkills } from "../../pages/api/data.ts";
 import styles from "./Skills.module.css";
-import ListSkills from "../ListSkills/ListSkills.jsx";
+import ListSkills from "../ListSkills/ListSkills.tsx";
 
 const Skills = () => {
   return (

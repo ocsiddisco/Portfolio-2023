@@ -1,4 +1,4 @@
-import { dancingScript } from "@/styles/utils/fonts.js";
+import { dancingScript } from "@/styles/utils/fonts.ts";
 import styles from "./Footer.module.css";
 
 const Footer = () => {

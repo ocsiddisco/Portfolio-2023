@@ -1,5 +1,5 @@
 import styles from "./ListSkills.module.css";
-import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
+import { exo2, montserrat2 } from "@/styles/utils/fonts.ts";
 
 const ListSkills = ({ skills }) => {
   return (

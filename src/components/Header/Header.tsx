@@ -1,10 +1,10 @@
-import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.js";
+import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.ts";
 import styles from "./Header.module.css";
 import Image from "next/image";
 import { useState } from "react";
 
 const Header = () => {
-  const [vue, setVue] = useState("short");
+  const [vue, setVue] = useState<string>("short");
 
   return (
     <header className={styles.headerContainer}>

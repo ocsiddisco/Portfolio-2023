@@ -1,12 +1,10 @@
 import React from "react";
 import {
-  projects,
   groupProjects,
-  projectsCourses,
-} from "../../pages/api/data.js";
-import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
+} from "../../pages/api/data.ts";
+import { exo2, montserrat2 } from "@/styles/utils/fonts.ts";
 import styles from "./GroupProjects.module.css";
-import CardProject from "../CardProject/CardProject";
+import CardProject from "../CardProject/CardProject.tsx";
 
 const GroupProjects = () => {
   return (
