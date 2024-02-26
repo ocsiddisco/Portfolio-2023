@@ -1,9 +1,9 @@
-import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.js";
+import { exo2, montserrat2, montserrat } from "@/styles/utils/fonts.ts";
 import styles from "./About.module.css";
 import { useState } from "react";
 
 const About = () => {
-  const [vue, setVue] = useState("short");
+  const [vue, setVue] = useState<string>("short");
 
   return (
     <section id="about" className={styles.aboutSection}>
@@ -36,6 +36,8 @@ const About = () => {
 
               <button
                 className={styles.buttonArrow}
+                aria-label="Go to long version About text"
+
                 onClick={() => setVue("long")}
               >
                 <div className={styles.arrowRight}></div>
@@ -68,6 +70,7 @@ const About = () => {
             <div className={styles.arrowLeftContainer}>
               <button
                 className={styles.buttonArrow}
+                aria-label="Go back to short About text"
                 onClick={() => setVue("short")}
               >
                 <div className={styles.arrowLeft}></div>

@@ -1,12 +1,31 @@
 import Image from "next/image";
-import { montserrat2 } from "@/styles/utils/fonts.js";
+import { montserrat2 } from "@/styles/utils/fonts.ts";
 import styles from "./CardProject.module.css";
 import ListSkills from "../ListSkills/ListSkills";
+import { IProject } from "@/pages/api/data";
 
-const CardProject = ({ project }) => {
+
+
+interface IPropsProject {
+ project: IProject
+}
+
+const CardProject = ({ project }: IPropsProject) => {
   return (
     <div className={styles.containerCardProject}>
-      <div className={styles.containerImageProject}>{project.image}</div>
+      <div className={styles.containerImageProject}>
+        <Image
+          src={project.image}
+          width="170"
+          height="170"
+          alt="image-project"
+          style={{
+            borderStyle: "none",
+            borderRadius: "10px",
+            objectFit: "contain",
+          }}
+        />
+      </div>
       <div className={styles.containerProjectInfo}>
         <div className={styles.containerTitel}>
           <a

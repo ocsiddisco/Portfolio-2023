@@ -1,7 +1,11 @@
 import styles from "./ListSkills.module.css";
-import { exo2, montserrat2 } from "@/styles/utils/fonts.js";
+import { exo2, montserrat2 } from "@/styles/utils/fonts.ts";
 
-const ListSkills = ({ skills }) => {
+interface IProps {
+  skills: string[]
+}
+
+const ListSkills = ({ skills }: IProps) => {
   return (
     <ul className={styles.listSkills} style={montserrat2.style}>
       {skills.map((skill, i) => {

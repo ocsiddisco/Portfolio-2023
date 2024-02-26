@@ -1,14 +1,14 @@
 .aboutSection {
   height: 100%;
-text-align: justify;
+  text-align: justify;
 }
 .aboutContainer {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
-.aboutInside{
+.aboutInside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,116 +17,115 @@ text-align: justify;
 }
 
 .textAbout {
-    margin-top: 0.8rem;
-    line-height: 1.4;
+  margin-top: 0.8rem;
+  line-height: 1.4;
 }
-.link:hover{
-    cursor: pointer;
+.link:hover {
+  cursor: pointer;
 }
 
-.textVersion{
+.textVersion {
   margin-right: 5px;
 }
 
 @media only screen and (max-width: 900px) {
   .aboutSection {
-      height: fit-content;
-          }
-          .arrowContainer {
-            padding-top: 2.5rem;
-          }
-          .arrowLeftContainer {
-            padding-top: 2.5rem;
-
-          }
+    height: fit-content;
+  }
+  .arrowContainer {
+    padding-top: 2.5rem;
+  }
+  .arrowLeftContainer {
+    padding-top: 2.5rem;
+  }
 }
 
 /* Arrows */
 
 .arrowRightContainer {
-    display: flex;
-    flex-direction: row;
-  
+  display: flex;
+  flex-direction: row;
+}
+.buttonArrow {
+  cursor: pointer;
+  border: none;
+  background: var(--dark-theme-background-color);
+}
+
+.arrowRight {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+}
+
+.arrowRight:before {
+  content: "";
+  height: 3px;
+  width: 2rem;
+  background-color: var(--dark-theme-white60);
+  display: block;
+  float: left;
+  position: relative;
+  top: 7px;
+  transition: 0.3s ease-in-out;
+}
+
+.arrowRight:after {
+  content: "";
+  float: left;
+  border-left: 9px solid var(--dark-theme-white60);
+  border-right: 9px solid transparent;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+}
+
+.arrowRight:hover:before {
+  width: 3.5rem;
+}
+
+.arrowLeftContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrowLeft {
+  display: inline-block;
+  /* float:right; */
+  cursor: pointer;
+}
+
+.arrowLeft:before {
+  content: "";
+  height: 3px;
+  width: 2rem;
+  background-color: var(--dark-theme-white60);
+  display: block;
+  float: right;
+  position: relative;
+  top: 7px;
+  transition: 0.3s ease-in-out;
+}
+
+.arrowLeft:after {
+  content: "";
+  float: right;
+  border-left: 9px solid transparent;
+  border-right: 9px solid var(--dark-theme-white60);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+}
+
+.arrowLeft:hover:before {
+  width: 3.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .aboutInside {
+    justify-content: unset;
   }
-  .buttonArrow {
-    cursor: pointer;
-    border: none;
-    background: var(--dark-theme-background-color);
+
+  .arrowRightContainer,
+  .arrowLeftContainer {
+    margin-top: 4rem;
   }
-
-  .arrowRight{
-      display:inline-block;
-      float:left;
-      cursor:pointer;
-    }
-    
-    .arrowRight:before{
-      content:'';
-      height:3px;
-      width:2rem;
-      background-color: var(--dark-theme-white60);
-      display:block;
-      float:left;
-      position:relative;
-      top:7px;
-      transition:0.3s ease-in-out;
-    }
-    
-    .arrowRight:after{
-      content:'';
-      float:left;
-      border-left:9px solid var(--dark-theme-white60);
-      border-right:9px solid transparent;
-      border-top:9px solid transparent;
-      border-bottom:9px solid transparent;
-    }
-    
-    .arrowRight:hover:before{
-      width:3.5rem;
-    }
-  
-    .arrowLeftContainer {
-      display: flex;
-      justify-content: flex-end;
-    }
-  
-    .arrowLeft{
-      display:inline-block;
-      /* float:right; */
-      cursor:pointer;
-    }
-    
-    .arrowLeft:before{
-      content:'';
-      height:3px;
-      width:2rem;
-      background-color:var(--dark-theme-white60);
-      display:block;
-      float:right;
-      position:relative;
-      top:7px;
-      transition:0.3s ease-in-out;
-    }
-    
-    .arrowLeft:after{
-      content:'';
-      float:right;
-      border-left:9px solid transparent;
-      border-right:9px solid var(--dark-theme-white60);
-      border-top:9px solid transparent;
-      border-bottom:9px solid transparent;
-    }
-    
-    .arrowLeft:hover:before{
-      width:3.5rem;
-    }
-
-    @media only screen and (min-width: 1200px) {
-      .aboutInside {
-        justify-content:unset;
-      }
-
-      .arrowRightContainer, .arrowLeftContainer{
-        margin-top: 4rem;
-      }
-    }
+}
