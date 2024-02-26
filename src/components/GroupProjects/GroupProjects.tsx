@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  groupProjects,
-} from "../../pages/api/data.ts";
+import { groupProjects } from "../../pages/api/data.ts";
 import { exo2, montserrat2 } from "@/styles/utils/fonts.ts";
 import styles from "./GroupProjects.module.css";
 import CardProject from "../CardProject/CardProject.tsx";

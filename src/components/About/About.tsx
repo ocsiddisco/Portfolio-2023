@@ -36,6 +36,8 @@ const About = () => {
 
               <button
                 className={styles.buttonArrow}
+                aria-label="Go to long version About text"
+
                 onClick={() => setVue("long")}
               >
                 <div className={styles.arrowRight}></div>
@@ -68,6 +70,7 @@ const About = () => {
             <div className={styles.arrowLeftContainer}>
               <button
                 className={styles.buttonArrow}
+                aria-label="Go back to short About text"
                 onClick={() => setVue("short")}
               >
                 <div className={styles.arrowLeft}></div>

@@ -1,27 +1,25 @@
-.containerSoloProjects{
-    height: fit-content;   
-    padding-top: 2.5rem;
- 
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+.containerSoloProjects {
+  height: fit-content;
+  padding-top: 2.5rem;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 
 .containerSoloProjects::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
 
-
-.insideSoloProjects{
-
+.insideSoloProjects {
 }
 
 .projectsTitel {
-     }
+}
 
 .listProjects {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }

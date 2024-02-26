@@ -1,23 +1,22 @@
-type Project = {
-  id: number
-  title: string
-  description: string
-  stack: string[]
-  github: string
-  image: string
-  url: string
-}
+export type IProject = {
+  id: number;
+  title: string;
+  description: string;
+  stack: string[];
+  github: string;
+  image: string;
+  url: string;
+};
 
-
-export const projects: Project[] = [
+export const projects: IProject[] = [
   {
     id: 5,
     title: "Portfolio",
     description:
       "This is my third portfolio, and it reflects the journey of learning and the evolution of my skills.",
-    stack: ["HTML", "ModulesCSS", "JavaScript", "Next.js", "Vercel"],
+    stack: ["HTML", "ModulesCSS", "TypeScript", "Next.js", "Vercel"],
     github: "https://github.com/ocsiddisco/Portfolio-2023",
-    image:"/OvalProjectNewP.png",
+    image: "/OvalProjectNewP.png",
     url: "",
   },
   {
@@ -109,7 +108,7 @@ export const projects: Project[] = [
   },
 ];
 
-export const groupProjects = [
+export const groupProjects: IProject[] = [
   {
     id: 12,
     title: "Smart Shopping List -ongoing-",
@@ -177,7 +176,7 @@ export const groupProjects = [
   },
 ];
 
-export const projectsCourses = [
+export const projectsCourses: IProject[] = [
   {
     id: 6,
     title: "Nasa - Mission Control",
@@ -242,7 +241,7 @@ export const hardSkills: string[] = [
   "Git",
 ];
 
-export const softSkills: string[]= [
+export const softSkills: string[] = [
   "Resourcefulness",
   "Collaboration",
   "Problem-Solving",

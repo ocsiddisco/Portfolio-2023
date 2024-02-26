@@ -11,7 +11,7 @@ const Skills = () => {
           <h3 className={styles.skillsTitel} style={exo2.style}>
             Soft Skills
           </h3>
-          <ListSkills skills={softSkills} />
+          <ListSkills skills={softSkills}  />
         </div>
 
         <div className={styles.hardSkillsContainer}>

@@ -1,10 +1,7 @@
 import React from "react";
-import {
-  projects,
-} from "../../pages/api/data.ts";
+import { projects } from "../../pages/api/data.ts";
 import { exo2, montserrat2 } from "@/styles/utils/fonts.ts";
 import styles from "./SoloProjects.module.css";
-
 import CardProject from "@/components/CardProject/CardProject";
 
 const SoloProjects = () => {

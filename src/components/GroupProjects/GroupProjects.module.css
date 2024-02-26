@@ -1,16 +1,16 @@
-.containerGroupProjects{
-    height: fit-content;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+.containerGroupProjects {
+  height: fit-content;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
 }
 
-.listProjects{
-    display: flex;
-    flex-direction: column;
+.listProjects {
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 1200px) {
-    .containerGroupProjects{
-        min-height: 100%;
-    }
+  .containerGroupProjects {
+    min-height: 100%;
+  }
 }

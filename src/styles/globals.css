@@ -1,50 +1,43 @@
 html,
 body {
-  overflow-x: hidden; 
+  overflow-x: hidden;
   margin: 0;
   height: 100vh;
 }
 
- html {
-  background-color:  var(--dark-theme-background-color);
+html {
+  background-color: var(--dark-theme-background-color);
   max-width: 100vw;
- }
+}
 
- #__next {
+#__next {
   height: 100vh;
-overflow: hidden;
- }
+  overflow: hidden;
+}
 .mainContainer {
   width: 100%;
   height: calc(100vh - 7rem);
 }
 
-
-
-  /**************************/
+/**************************/
 /***     Variables      ***/
 /**************************/
 :root {
   /* colors */
-  --WhiteColor:#F9FAF4;
+  --WhiteColor: #f9faf4;
   /* --GreyColor: #4A6163; */
 
   --dark-theme-background-color: #262833;
-  --dark-theme-white87:rgb(255, 255, 255, 0.87);
-  --dark-theme-white60:rgb(255, 255, 255, 0.60);
+  --dark-theme-white87: rgb(255, 255, 255, 0.87);
+  --dark-theme-white60: rgb(255, 255, 255, 0.6);
   --dark-theme-bg-tag: #36c7d052;
   --dark-theme-bg-hover: rgba(54, 199, 208, 0.05);
   --dark-theme-orange: #ffdcb6;
-
 }
 
-
-
- html {
-
+html {
   max-width: 100vw;
-
- }
+}
 
 /**************************/
 /***         RESET      ***/
@@ -55,12 +48,18 @@ overflow: hidden;
   box-sizing: border-box;
 }
 
-h1, h2,h3, h4, h5, h6,li {
-  color: var(--dark-theme-white87)
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  color: var(--dark-theme-white87);
 }
 
 p {
-  color: var(--dark-theme-white60)
+  color: var(--dark-theme-white60);
 }
 
 body,
@@ -82,13 +81,10 @@ a {
   padding: 0;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
-
 
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -105,13 +101,12 @@ a {
 /***     SELECTORS      ***/
 /**************************/
 
-
 h1,
 h2 {
   font-size: 2rem;
 }
 
-h3{
+h3 {
   font-size: 2rem;
 }
 
@@ -132,4 +127,3 @@ div {
 ul {
   font-size: 0.8rem;
 }
-
