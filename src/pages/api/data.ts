@@ -111,12 +111,12 @@ export const projects: IProject[] = [
 export const groupProjects: IProject[] = [
   {
     id: 12,
-    title: "Smart Shopping List -ongoing-",
+    title: "Despiensa",
     description:
-      "Thanks to the community The Collab Lab, I get the opportunity to work on a group project, supported with a team of mentors. We practice pair-programming, learn best practices for PR and reviews, get feedbacks on our code... The project just started, and the learnings are already tangible.",
+      "Thanks to the community The Collab Lab, I get the opportunity to work on a group project, supported with a team of mentors. We practice pair-programming, learn best practices for PR and reviews and get feedbacks on our code. While the project is officialy finished, we are still improving Despiensa piece by piece.",
     stack: [
       "HTML",
-      "CSS",
+      "TailwindCSS",
       "Javascript",
       "React",
       "React Router",
@@ -126,8 +126,8 @@ export const groupProjects: IProject[] = [
       "Pair-programming",
     ],
     github: "https://github.com/the-collab-lab/tcl-71-smart-shopping-list",
-    image: "/OvalProjectSmart.png",
-    url: "https://tcl-71-smart-shopping-list.web.app/",
+    image: "/OvalDespiensa.png",
+    url: "https://www.despiensa.site/",
   },
   {
     id: 11,
