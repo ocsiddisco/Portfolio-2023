@@ -1,7 +1,7 @@
 .skillsContainer {
   display: flex;
   height: 100%;
-  padding-top: 2.5rem;
+  padding-top: 40px;
 }
 
 .skillsInside {
@@ -13,7 +13,7 @@
 .hardSkillsContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 2.5rem;
+  padding-top: 40px;
 }
 
 .softSkillsContainer {
@@ -21,12 +21,9 @@
   flex-direction: column;
 }
 
-.skillsTitel {
-}
-
 @media only screen and (max-width: 900px) {
   .skillsContainer {
     height: fit-content;
-    padding-bottom: 2.5rem;
+    padding-bottom: 40px;
   }
 }

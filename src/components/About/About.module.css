@@ -11,13 +11,12 @@
 .aboutInside {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
-  padding: 2.5rem 0 2.5rem 0;
+  padding: 40px 0;
 }
 
 .textAbout {
-  margin-top: 0.8rem;
+  margin-top: 10px;
   line-height: 1.4;
 }
 .link:hover {
@@ -28,15 +27,16 @@
   margin-right: 5px;
 }
 
+.arrowContainer {
+  padding-top: 40px;
+}
+.arrowLeftContainer , .arrowRightContainer{
+  padding-top: 40px;
+}
+
 @media only screen and (max-width: 900px) {
   .aboutSection {
     height: fit-content;
-  }
-  .arrowContainer {
-    padding-top: 2.5rem;
-  }
-  .arrowLeftContainer {
-    padding-top: 2.5rem;
   }
 }
 
@@ -53,7 +53,7 @@
 }
 
 .arrowRight {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   cursor: pointer;
 }
@@ -61,7 +61,7 @@
 .arrowRight:before {
   content: "";
   height: 3px;
-  width: 2rem;
+  width: 32px;
   background-color: var(--dark-theme-white60);
   display: block;
   float: left;
@@ -80,7 +80,7 @@
 }
 
 .arrowRight:hover:before {
-  width: 3.5rem;
+  width: 48px;
 }
 
 .arrowLeftContainer {
@@ -90,14 +90,13 @@
 
 .arrowLeft {
   display: inline-block;
-  /* float:right; */
   cursor: pointer;
 }
 
 .arrowLeft:before {
   content: "";
   height: 3px;
-  width: 2rem;
+  width: 32px;
   background-color: var(--dark-theme-white60);
   display: block;
   float: right;
@@ -116,7 +115,7 @@
 }
 
 .arrowLeft:hover:before {
-  width: 3.5rem;
+  width: 48px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -126,6 +125,6 @@
 
   .arrowRightContainer,
   .arrowLeftContainer {
-    margin-top: 4rem;
+    margin-top: 64px;
   }
 }

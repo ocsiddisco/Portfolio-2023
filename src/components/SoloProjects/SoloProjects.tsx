@@ -7,8 +7,8 @@ import CardProject from "@/components/CardProject/CardProject";
 const SoloProjects = () => {
   return (
     <section id="soloprojects" className={styles.containerSoloProjects}>
-      <div className={styles.insideSoloProjects}>
-        <h3 className={styles.projectsTitel} style={exo2.style}>
+      <div>
+        <h3 style={exo2.style}>
           Solo Projects
         </h3>
 

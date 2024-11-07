@@ -1,6 +1,6 @@
 .containerSoloProjects {
   height: fit-content;
-  padding-top: 2.5rem;
+  padding-top: 40px;
 
   overflow-y: scroll;
   overflow-x: hidden;
@@ -11,12 +11,6 @@
 
 .containerSoloProjects::-webkit-scrollbar {
   display: none;
-}
-
-.insideSoloProjects {
-}
-
-.projectsTitel {
 }
 
 .listProjects {

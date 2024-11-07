@@ -11,7 +11,7 @@ const Header = () => {
       <div className={styles.headerIntroduction} style={montserrat2.style}>
         <h2 className={styles.textIntroduction}>Hi there,</h2>
         <h2 className={styles.textIntroduction}>I am Céline!</h2>
-        <h2 className={styles.textIntroduction}>Front-End Developer</h2>
+        <h2 className={styles.textIntroduction}>Frontend developer</h2>
         <div className={styles.textAbout} style={montserrat2.style}>
           <p>
             I enjoy creating websites and applications that offer a great user

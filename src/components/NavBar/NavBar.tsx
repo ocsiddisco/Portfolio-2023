@@ -4,20 +4,21 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <nav className={styles.navigationContainer}>
-      <div className={styles.navigationInside}>
-        <Link href="#about" className={styles.navSpace}>
-          <h6 className={styles.navName}>About</h6>
-        </Link>
-        <Link href="#skills" className={styles.navSpace}>
-          <h6 className={styles.navName}>Skills</h6>
-        </Link>
-        <Link href="#soloprojects" className={styles.navSpace}>
-          <h6 className={styles.navName}>Solo projects</h6>
-        </Link>
-        <Link href="#groupprojects" className={styles.navSpace}>
-          <h6 className={styles.navName}>Group projects</h6>
-        </Link>
-      </div>
+      <ul className={styles.navigationInside}>
+        <li className={styles.navName}><Link href="#about" className={styles.navSpace}>
+          About
+        </Link></li>
+        <li className={styles.navName}><Link href="#skills" className={styles.navSpace}>
+          Skills
+        </Link></li>
+        
+        <li className={styles.navName}><Link href="#soloprojects" className={styles.navSpace}>
+          Solo projects
+        </Link></li>
+        <li className={styles.navName}><Link href="#groupprojects" className={styles.navSpace}>
+          Group projects
+        </Link></li>
+      </ul>
     </nav>
   );
 };

@@ -1,6 +1,6 @@
 .navigationContainer {
   display: flex;
-  height: 5rem;
+  min-height: 80px;
   width: 100%;
   border-bottom: 1px solid var(--dark-theme-white60);
   position: fixed;
@@ -13,11 +13,12 @@
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  margin-right: 5rem;
+  list-style-type: none;
+  padding-right: 80px
 }
 
 .navSpace {
-  margin-left: 1rem;
+  margin-left: 16px;
 }
 
 .navSpace :hover {
@@ -32,13 +33,30 @@
   color: var(--dark-theme-orange);
 }
 
-@media only screen and (max-width: 650px) {
+.navName {
+  font-size: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 750px) {
   .navigationInside {
-    justify-content: center;
-    margin-right: 0rem;
+    justify-content: flex-start;
+    margin-right: 0;
+    padding-left: 24px;
+    padding-right: 0;
   }
-  .navName {
-    font-size: 1rem;
+  .navSpace {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+}
+
+
+@media(min-width:751px ) and (max-width: 900px) {
+  .navigationInside {
+    padding-right: 80px;
+
   }
 }
 
@@ -48,12 +66,12 @@
   }
   .navigationInside {
     width: 80%;
-          margin-right: 10rem;
   }
 }
 
 @media only screen and (min-width: 1600px) {
+
   .navigationInside {
-    width: 60%;
+    width: 70%;
   }
 }

@@ -5,9 +5,9 @@
 }
 
 .layoutInside {
-  margin-top: 5rem;
-  padding: 0rem 5rem 0rem 5rem;
-  height: calc(100% - 7rem);
+  margin-top: 80px;
+  padding: 0 80px;
+  height: calc(100% - 112px);
   display: grid;
   grid-template-columns: 2fr 3fr;
 }
@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 750px) {
   .layoutInside {
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0 24px;
   }
 }
 
@@ -59,6 +59,6 @@
 
 @media only screen and (min-width: 1600px) {
   .layoutInside {
-    width: 60%;
+    width: 70%;
   }
 }
