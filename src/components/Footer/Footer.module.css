@@ -7,4 +7,8 @@
   min-height: 32px;
   position: fixed;
   bottom: 0;
+  background-color: var(--dark-theme-background-color);
+}
+.footerContainer  p {
+  padding: 2px 0;
 }
