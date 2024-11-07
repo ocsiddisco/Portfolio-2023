@@ -5,17 +5,17 @@ const NavBar = () => {
   return (
     <nav className={styles.navigationContainer}>
       <ul className={styles.navigationInside}>
-        <li className={styles.navName}><Link href="#about" className={styles.navSpace}>
+        <li className={styles.navSpace}><Link href="#about">
           About
         </Link></li>
-        <li className={styles.navName}><Link href="#skills" className={styles.navSpace}>
+        <li className={styles.navSpace}><Link href="#skills">
           Skills
         </Link></li>
         
-        <li className={styles.navName}><Link href="#soloprojects" className={styles.navSpace}>
+        <li className={styles.navSpace}><Link href="#soloprojects">
           Solo projects
         </Link></li>
-        <li className={styles.navName}><Link href="#groupprojects" className={styles.navSpace}>
+        <li className={styles.navSpace}><Link href="#groupprojects">
           Group projects
         </Link></li>
       </ul>

@@ -25,5 +25,6 @@
   .skillsContainer {
     height: fit-content;
     padding-bottom: 40px;
+    padding-top: 80px;
   }
 }

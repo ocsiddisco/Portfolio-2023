@@ -31,7 +31,6 @@
     flex-direction: column;
     overflow-y: scroll;
     scroll-behavior: unset;
-    padding-top: 15px
   }
 
   .mainContainer {
