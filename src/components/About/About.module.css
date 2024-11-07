@@ -8,11 +8,19 @@
   height: 100%;
 }
 
+.titleAbout {
+  display: none;
+}
+
 .aboutInside {
   display: flex;
   flex-direction: column;
   height: 100%;
   padding: 40px 0;
+}
+
+.containerText .textAbout:first-child {
+  margin-top: 0;
 }
 
 .textAbout {
@@ -38,6 +46,12 @@
   .aboutSection {
     height: fit-content;
     padding-top: 80px;
+  }
+  .aboutInside {
+    padding-top: 24px;
+  }
+  .titleAbout {
+  display:inline;
   }
 }
 

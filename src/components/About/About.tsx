@@ -8,9 +8,11 @@ const About = () => {
   return (
     <section id="about" className={styles.aboutSection}>
       <div className={styles.aboutContainer} style={montserrat2.style}>
+      <h3 className={styles.titleAbout} style={exo2.style}>
+About        </h3>
         {vue === "short" ? (
           <div className={styles.aboutInside}>
-            <div style={montserrat2.style}>
+            <div className={styles.containerText} style={montserrat2.style}>
               <p className={styles.textAbout}>
                 While I'm focused on Front-End, I also want to understand the
                 big picture. I see IT as a big puzzle without borders.
@@ -46,7 +48,7 @@ const About = () => {
           </div>
         ) : (
           <div className={styles.aboutInside}>
-            <div style={montserrat2.style}>
+            <div className={styles.containerText} style={montserrat2.style}>
               <p className={styles.textAbout}>
                 I was born and raised in a small village in Brittany, France,
                 (which may be located near Asterix and Obelix's village).

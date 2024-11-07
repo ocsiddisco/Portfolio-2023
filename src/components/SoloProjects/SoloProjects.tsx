@@ -7,7 +7,7 @@ import CardProject from "@/components/CardProject/CardProject";
 const SoloProjects = () => {
   return (
     <section id="soloprojects" className={styles.containerSoloProjects}>
-      <div>
+      <div >
         <h3 style={exo2.style}>
           Solo Projects
         </h3>

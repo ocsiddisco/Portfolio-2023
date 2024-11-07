@@ -8,7 +8,7 @@ const GroupProjects = () => {
   return (
     <section id="groupprojects" className={styles.containerGroupProjects}>
       <div className={styles.insideGroupProjects}>
-        <h3 className={styles.projectsTitel} style={exo2.style}>
+        <h3 style={exo2.style}>
           Group Projects
         </h3>
 
