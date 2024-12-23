@@ -1,9 +1,10 @@
+import { exo2, montserrat2 } from "@/styles/utils/fonts.ts";
 import styles from "./NavBar.module.css";
 import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav className={styles.navigationContainer}>
+    <nav className={styles.navigationContainer} style={exo2.style}>
       <ul className={styles.navigationInside}>
         <li className={styles.navSpace}><Link href="#about">
           About

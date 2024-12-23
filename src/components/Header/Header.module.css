@@ -26,19 +26,19 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25rem) {
   .linkContainer {
     padding-top: 40px;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 46.875rem) {
   .headerContainer {
     padding-right: 0;
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 28.125rem) {
   .textIntroduction {
     font-size: 1.5rem;
   }

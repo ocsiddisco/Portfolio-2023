@@ -19,7 +19,7 @@
 }
 
 .navSpace {
-  margin-left: 16px;
+  margin-left: 32px;
   font-size: 1.5rem;
 
 }
@@ -38,7 +38,7 @@
 
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 46.85rem) {
   .navigationInside {
     justify-content: flex-start;
     margin-right: 0;
@@ -55,14 +55,14 @@
 }
 
 
-@media(min-width:751px ) and (max-width: 900px) {
+@media(min-width:46.85rem ) and (max-width: 56.25rem) {
   .navigationInside {
     padding-right: 80px;
 
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 75rem) {
   .navigationContainer {
     justify-content: center;
   }
@@ -71,7 +71,7 @@
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 100rem) {
 
   .navigationInside {
     width: 70%;
