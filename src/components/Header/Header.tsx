@@ -33,6 +33,10 @@ const Header = () => {
             alt="go to github"
             width="40"
             height="40"
+            style={{
+              width: "2.5rem",
+              height: "2.5rem",
+            }}
           />
         </a>
 
@@ -46,6 +50,10 @@ const Header = () => {
             alt="go to linkedin"
             width="40"
             height="40"
+            style={{
+              width: "2.5rem",
+              height: "2.5rem",
+            }}
           />
         </a>
 
@@ -54,7 +62,16 @@ const Header = () => {
           href="mailto:celine.le.corv@gmail.com"
           target="_blank"
         >
-          <Image src="/dm-email.png" alt="send email" width="40" height="40" />
+          <Image
+            src="/dm-email.png"
+            alt="send email"
+            width="40"
+            height="40"
+            style={{
+              width: "2.5rem",
+              height: "2.5rem",
+            }}
+          />
         </a>
         <a className={styles.link} href="/CelineLeCorvaisier.pdf" download>
           <Image
@@ -62,6 +79,10 @@ const Header = () => {
             alt="download my resume"
             width="40"
             height="40"
+            style={{
+              width: "2.5rem",
+              height: "2.5rem",
+            }}
           />
         </a>
       </div>

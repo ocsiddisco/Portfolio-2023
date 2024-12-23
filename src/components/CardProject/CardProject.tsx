@@ -23,6 +23,8 @@ const CardProject = ({ project }: IPropsProject) => {
             borderStyle: "none",
             borderRadius: "10px",
             objectFit: "contain",
+         width:'10.625rem',
+            height:'10.625rem'
           }}
         />
       </div>
@@ -33,7 +35,11 @@ const CardProject = ({ project }: IPropsProject) => {
             href={project.github}
             target="_blank"
           >
-            <Image src="/dm-github.png" alt="github" width="30" height="30" />
+            <Image src="/dm-github.png" alt="github" width="30" height="30"  style={{
+           
+         width:'1.875rem',
+            height:'1.875rem'
+          }}/>
           </a>
           <h4 className={styles.titleName}>{project.title}</h4>
           <div>
@@ -44,6 +50,11 @@ const CardProject = ({ project }: IPropsProject) => {
                   alt="visit demo of this project"
                   width="20"
                   height="20"
+                  style={{
+           
+                    width:'1.25rem',
+                       height:'1.25rem'
+                     }}
                 />
               </a>
             )}
